@@ -20,18 +20,14 @@ FOUNDATION_EXPORT const unsigned char KKUIDeviceVersionString[];
 
 
 /**
- current device "Hardware strings"(eg. iPhone10,1)
-
- @return Hardware strings
+ @return "Hardware strings"(eg. iPhone10,1)
  */
-- (NSString *)hardware;
+- (NSString *)KKHardware;
 
 
 /**
- current device model,return "unknown device" when it's not define
-
- @return model
+ @return device model (device name, e.g. iPhone6/iPhone 6 Plus),return "unknown device" when it's not define
  */
-- (NSString *)model;
+- (NSString *)KKModel;
 
 @end
