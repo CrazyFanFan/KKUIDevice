@@ -10,6 +10,7 @@
 		4FCB40FC1FA8AB6300BF096D /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */; };
 		4FCB41011FA8AB6300BF096D /* KKUIDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */; };
 		4FCB41031FA8AB6300BF096D /* KKUIDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FCB41161FA8AD9E00BF096D /* KKUIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUIDeviceTests.m; sourceTree = "<group>"; };
 		4FCB41021FA8AB6300BF096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCB410C1FA8AB8F00BF096D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUIDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */,
+				4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */,
 				4FCB40F61FA8AB6300BF096D /* Info.plist */,
 			);
 			path = KKUIDevice;
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCB41161FA8AD9E00BF096D /* KKUIDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
