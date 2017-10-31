@@ -11,6 +11,7 @@
 		4FCB41011FA8AB6300BF096D /* KKUIDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */; };
 		4FCB41031FA8AB6300BF096D /* KKUIDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FCB41161FA8AD9E00BF096D /* KKUIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */; };
+		4FCB415A1FA8B3BD00BF096D /* KKUIDevice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FCB41591FA8B3BD00BF096D /* KKUIDevice.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		4FCB41021FA8AB6300BF096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCB410C1FA8AB8F00BF096D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUIDevice.m; sourceTree = "<group>"; };
+		4FCB41591FA8B3BD00BF096D /* KKUIDevice.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KKUIDevice.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4FCB40E81FA8AB6200BF096D = {
 			isa = PBXGroup;
 			children = (
+				4FCB41581FA8B3BD00BF096D /* bundle */,
 				4FCB410C1FA8AB8F00BF096D /* README.md */,
 				4FCB40F41FA8AB6300BF096D /* KKUIDevice */,
 				4FCB40FF1FA8AB6300BF096D /* KKUIDeviceTests */,
@@ -89,6 +92,14 @@
 				4FCB41021FA8AB6300BF096D /* Info.plist */,
 			);
 			path = KKUIDeviceTests;
+			sourceTree = "<group>";
+		};
+		4FCB41581FA8B3BD00BF096D /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				4FCB41591FA8B3BD00BF096D /* KKUIDevice.bundle */,
+			);
+			path = bundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCB415A1FA8B3BD00BF096D /* KKUIDevice.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
