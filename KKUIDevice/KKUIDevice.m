@@ -14,13 +14,13 @@
 
 @implementation UIDevice (KKUIDevice)
 
-- (NSString *)hardware {
+- (NSString *)KKHardware {
     struct utsname systemInfo;
     uname(&systemInfo);
     return [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
 }
 
-- (NSString *)model {
+- (NSString *)KKModel {
     NSString *plistPath = [[[NSBundle mainBundle] pathForResource:BUNDLE_NAME ofType:@"bundle"] stringByAppendingPathComponent:PLIST_NAME];
 
     NSDictionary *map = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
