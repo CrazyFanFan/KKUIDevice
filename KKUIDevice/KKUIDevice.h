@@ -16,4 +16,6 @@ FOUNDATION_EXPORT const unsigned char KKUIDeviceVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <KKUIDevice/PublicHeader.h>
 
+@interface UIDevice (KKUIDevice)
 
+@end
