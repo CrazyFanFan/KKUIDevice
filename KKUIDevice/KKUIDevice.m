@@ -7,7 +7,30 @@
 //
 
 #import "KKUIDevice.h"
+#import <sys/utsname.h>
+
+#define BUNDLE_NAME @"KKUIDevice"
+#define PLIST_NAME @"HardwareModelMap.plist"
 
 @implementation UIDevice (KKUIDevice)
+
+- (NSString *)hardware {
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    return [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
+}
+
+- (NSString *)model {
+    NSString *plistPath = [[[NSBundle mainBundle] pathForResource:BUNDLE_NAME ofType:@"bundle"] stringByAppendingPathComponent:PLIST_NAME];
+
+    NSDictionary *map = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
+    NSAssert(map, @"hardwareToModelMap init error!");
+    NSString *model = map[[self hardware]];
+    if (model == nil) {
+        model = @"unknown device";
+    }
+
+    return model;
+}
 
 @end
