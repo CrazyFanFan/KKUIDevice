@@ -1,0 +1,5 @@
+#XCode user data
+**/*.xcuserdatad
+
+#AppCode Config
+**/.idea/*
