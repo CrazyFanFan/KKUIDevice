@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3C8A591FAC4ED500E2835E /* UIDevice+KKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3C8A571FAC4ED500E2835E /* UIDevice+KKDevice.h */; };
+		4F3C8A5A1FAC4ED500E2835E /* UIDevice+KKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C8A581FAC4ED500E2835E /* UIDevice+KKDevice.m */; };
 		4FCB40FC1FA8AB6300BF096D /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */; };
 		4FCB41011FA8AB6300BF096D /* KKUIDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */; };
 		4FCB41031FA8AB6300BF096D /* KKUIDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FCB41161FA8AD9E00BF096D /* KKUIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */; };
 		4FCB415A1FA8B3BD00BF096D /* KKUIDevice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FCB41591FA8B3BD00BF096D /* KKUIDevice.bundle */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F3C8A571FAC4ED500E2835E /* UIDevice+KKDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+KKDevice.h"; sourceTree = "<group>"; };
+		4F3C8A581FAC4ED500E2835E /* UIDevice+KKDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+KKDevice.m"; sourceTree = "<group>"; };
 		4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUIDevice.h; sourceTree = "<group>"; };
 		4FCB40F61FA8AB6300BF096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,7 +35,6 @@
 		4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUIDeviceTests.m; sourceTree = "<group>"; };
 		4FCB41021FA8AB6300BF096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCB410C1FA8AB8F00BF096D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUIDevice.m; sourceTree = "<group>"; };
 		4FCB41591FA8B3BD00BF096D /* KKUIDevice.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KKUIDevice.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,8 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */,
-				4FCB41141FA8AD9E00BF096D /* KKUIDevice.m */,
 				4FCB40F61FA8AB6300BF096D /* Info.plist */,
+				4F3C8A571FAC4ED500E2835E /* UIDevice+KKDevice.h */,
+				4F3C8A581FAC4ED500E2835E /* UIDevice+KKDevice.m */,
 			);
 			path = KKUIDevice;
 			sourceTree = "<group>";
@@ -109,6 +112,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3C8A591FAC4ED500E2835E /* UIDevice+KKDevice.h in Headers */,
 				4FCB41031FA8AB6300BF096D /* KKUIDevice.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCB41161FA8AD9E00BF096D /* KKUIDevice.m in Sources */,
+				4F3C8A5A1FAC4ED500E2835E /* UIDevice+KKDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
