@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                  UIDevice+Category,KKUIDevice
+			A Simple way to get iOS device info. e.g. Hardware string/device name
                    DESC
 
   s.homepage     = "https://github.com/CrazyFanFan/KKUIDevice"
@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Crazy凡"}
+  s.author             = { "Crazy凡" => "827799383@qq.com" }
   # Or just: s.author    = "Crazy凡"
-  # s.authors            = { "Crazy凡" => "827799383@qq.com" }
+  # s.authors            = { "Crazy凡" => "kongkk@fxiaoke.com" }
   # s.social_media_url   = "http://twitter.com/Crazy凡"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,9 +64,9 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
+  s.platform   	   = :ios, "8.0"
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
-  s.osx.deployment_target = "10.12.6"
+  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -92,8 +92,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "KKUIDevice", "Classes/**/*.{h,m}"
-  s.exclude_files = "bundle/"
+  s.source_files  = "KKUIDevice", "KKUIDevice/**/*.{h,m}"
+  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -106,6 +106,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
+  s.resources   = "bundle/**"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
@@ -118,7 +119,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "UIKit"
+  s.framework    = "UIKit" 
+  # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -131,7 +133,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
