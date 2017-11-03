@@ -25,7 +25,7 @@
 
     NSDictionary *map = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
     NSAssert(map, @"hardwareToModelMap init error!");
-    NSString *model = map[[self hardware]];
+    NSString *model = map[[self KKHardware]];
     if (model == nil) {
         model = @"unknown device";
     }
