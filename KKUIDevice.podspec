@@ -106,7 +106,9 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources   = "bundle/KKUIDevice.bundle"
+  s.resource_bundles = {
+      "KKUIDevice" => ['bundle/*.bundle']
+  }
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
