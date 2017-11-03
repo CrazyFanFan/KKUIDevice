@@ -9,6 +9,9 @@
 #import "KKUIDevice.h"
 #import <sys/utsname.h>
 
+// ADFA
+#import <AdSupport/AdSupport.h>
+
 #define BUNDLE_NAME @"KKUIDevice"
 #define PLIST_NAME @"HardwareModelMap.plist"
 
@@ -31,6 +34,10 @@
     }
 
     return model;
+}
+
+- (NSString *)KKAdvertisingIdentifier {
+    return [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
 }
 
 @end
