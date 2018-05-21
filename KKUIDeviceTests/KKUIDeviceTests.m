@@ -2,11 +2,12 @@
 //  KKUIDeviceTests.m
 //  KKUIDeviceTests
 //
-//  Created by Crazy凡 on 31/10/2017.
-//  Copyright © 2017 Crazy凡. All rights reserved.
+//  Created by K3 on 2018/5/21.
+//  Copyright © 2018年 Crazy凡. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import <KKUIDevice/KKUIDevice.h>
 
 @interface KKUIDeviceTests : XCTestCase
 
@@ -27,6 +28,9 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    NSLog(@"%@", [UIDevice.currentDevice KKHardware]);
+    NSLog(@"%@", [UIDevice.currentDevice KKModel]);
+    NSLog(@"%@", [UIDevice.currentDevice KKAdvertisingIdentifier]);
 }
 
 - (void)testPerformanceExample {
