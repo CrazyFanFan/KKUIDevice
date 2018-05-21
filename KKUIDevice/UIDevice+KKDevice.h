@@ -26,6 +26,6 @@
 /**
  @return IDFA
  */
-- (NSString *)KKAdvertisingIdentifier API_AVAILABLE(ios(10.0));
+- (NSString *)KKAdvertisingIdentifier;
 
 @end

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F3C8A591FAC4ED500E2835E /* UIDevice+KKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3C8A571FAC4ED500E2835E /* UIDevice+KKDevice.h */; };
+		4F3C8A591FAC4ED500E2835E /* UIDevice+KKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3C8A571FAC4ED500E2835E /* UIDevice+KKDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F3C8A5A1FAC4ED500E2835E /* UIDevice+KKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3C8A581FAC4ED500E2835E /* UIDevice+KKDevice.m */; };
-		4FCB40FC1FA8AB6300BF096D /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */; };
-		4FCB41011FA8AB6300BF096D /* KKUIDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */; };
 		4FCB41031FA8AB6300BF096D /* KKUIDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A914ACB820B294F90040FB41 /* KKUIDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A914ACB720B294F90040FB41 /* KKUIDeviceTests.m */; };
+		A914ACBA20B294F90040FB41 /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4FCB40FD1FA8AB6300BF096D /* PBXContainerItemProxy */ = {
+		A914ACBB20B294F90040FB41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4FCB40E91FA8AB6200BF096D /* Project object */;
 			proxyType = 1;
@@ -30,10 +30,11 @@
 		4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCB40F51FA8AB6300BF096D /* KKUIDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUIDevice.h; sourceTree = "<group>"; };
 		4FCB40F61FA8AB6300BF096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FCB40FB1FA8AB6300BF096D /* KKUIDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKUIDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUIDeviceTests.m; sourceTree = "<group>"; };
-		4FCB41021FA8AB6300BF096D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCB410C1FA8AB8F00BF096D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A914ACB520B294F90040FB41 /* KKUIDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKUIDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A914ACB720B294F90040FB41 /* KKUIDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUIDeviceTests.m; sourceTree = "<group>"; };
+		A914ACB920B294F90040FB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A914ACC220B2A9930040FB41 /* KKUIDevice.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KKUIDevice.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,11 +45,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FCB40F81FA8AB6300BF096D /* Frameworks */ = {
+		A914ACB220B294F90040FB41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCB40FC1FA8AB6300BF096D /* KKUIDevice.framework in Frameworks */,
+				A914ACBA20B294F90040FB41 /* KKUIDevice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +59,10 @@
 		4FCB40E81FA8AB6200BF096D = {
 			isa = PBXGroup;
 			children = (
+				A914ACC220B2A9930040FB41 /* KKUIDevice.podspec */,
 				4FCB410C1FA8AB8F00BF096D /* README.md */,
 				4FCB40F41FA8AB6300BF096D /* KKUIDevice */,
-				4FCB40FF1FA8AB6300BF096D /* KKUIDeviceTests */,
+				A914ACB620B294F90040FB41 /* KKUIDeviceTests */,
 				4FCB40F31FA8AB6200BF096D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */,
-				4FCB40FB1FA8AB6300BF096D /* KKUIDeviceTests.xctest */,
+				A914ACB520B294F90040FB41 /* KKUIDeviceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,11 +87,11 @@
 			path = KKUIDevice;
 			sourceTree = "<group>";
 		};
-		4FCB40FF1FA8AB6300BF096D /* KKUIDeviceTests */ = {
+		A914ACB620B294F90040FB41 /* KKUIDeviceTests */ = {
 			isa = PBXGroup;
 			children = (
-				4FCB41001FA8AB6300BF096D /* KKUIDeviceTests.m */,
-				4FCB41021FA8AB6300BF096D /* Info.plist */,
+				A914ACB720B294F90040FB41 /* KKUIDeviceTests.m */,
+				A914ACB920B294F90040FB41 /* Info.plist */,
 			);
 			path = KKUIDeviceTests;
 			sourceTree = "<group>";
@@ -127,22 +129,22 @@
 			productReference = 4FCB40F21FA8AB6200BF096D /* KKUIDevice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4FCB40FA1FA8AB6300BF096D /* KKUIDeviceTests */ = {
+		A914ACB420B294F90040FB41 /* KKUIDeviceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FCB41091FA8AB6300BF096D /* Build configuration list for PBXNativeTarget "KKUIDeviceTests" */;
+			buildConfigurationList = A914ACBD20B294F90040FB41 /* Build configuration list for PBXNativeTarget "KKUIDeviceTests" */;
 			buildPhases = (
-				4FCB40F71FA8AB6300BF096D /* Sources */,
-				4FCB40F81FA8AB6300BF096D /* Frameworks */,
-				4FCB40F91FA8AB6300BF096D /* Resources */,
+				A914ACB120B294F90040FB41 /* Sources */,
+				A914ACB220B294F90040FB41 /* Frameworks */,
+				A914ACB320B294F90040FB41 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4FCB40FE1FA8AB6300BF096D /* PBXTargetDependency */,
+				A914ACBC20B294F90040FB41 /* PBXTargetDependency */,
 			);
 			name = KKUIDeviceTests;
 			productName = KKUIDeviceTests;
-			productReference = 4FCB40FB1FA8AB6300BF096D /* KKUIDeviceTests.xctest */;
+			productReference = A914ACB520B294F90040FB41 /* KKUIDeviceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,8 +160,8 @@
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
-					4FCB40FA1FA8AB6300BF096D = {
-						CreatedOnToolsVersion = 9.0.1;
+					A914ACB420B294F90040FB41 = {
+						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -177,7 +179,7 @@
 			projectRoot = "";
 			targets = (
 				4FCB40F11FA8AB6200BF096D /* KKUIDevice */,
-				4FCB40FA1FA8AB6300BF096D /* KKUIDeviceTests */,
+				A914ACB420B294F90040FB41 /* KKUIDeviceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,7 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FCB40F91FA8AB6300BF096D /* Resources */ = {
+		A914ACB320B294F90040FB41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,21 +210,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FCB40F71FA8AB6300BF096D /* Sources */ = {
+		A914ACB120B294F90040FB41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCB41011FA8AB6300BF096D /* KKUIDeviceTests.m in Sources */,
+				A914ACB820B294F90040FB41 /* KKUIDeviceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4FCB40FE1FA8AB6300BF096D /* PBXTargetDependency */ = {
+		A914ACBC20B294F90040FB41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4FCB40F11FA8AB6200BF096D /* KKUIDevice */;
-			targetProxy = 4FCB40FD1FA8AB6300BF096D /* PBXContainerItemProxy */;
+			targetProxy = A914ACBB20B294F90040FB41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,6 +355,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.KKUIDevice;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -376,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.KKUIDevice;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -383,27 +387,37 @@
 			};
 			name = Release;
 		};
-		4FCB410A1FA8AB6300BF096D /* Debug */ = {
+		A914ACBE20B294F90040FB41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FAH45WPA2T;
+				DEVELOPMENT_TEAM = HV88ACAAR6;
 				INFOPLIST_FILE = KKUIDeviceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.KKUIDeviceTests;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.com.KKUIDeviceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4FCB410B1FA8AB6300BF096D /* Release */ = {
+		A914ACBF20B294F90040FB41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FAH45WPA2T;
+				DEVELOPMENT_TEAM = HV88ACAAR6;
 				INFOPLIST_FILE = KKUIDeviceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.KKUIDeviceTests;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.com.KKUIDeviceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -430,11 +444,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FCB41091FA8AB6300BF096D /* Build configuration list for PBXNativeTarget "KKUIDeviceTests" */ = {
+		A914ACBD20B294F90040FB41 /* Build configuration list for PBXNativeTarget "KKUIDeviceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FCB410A1FA8AB6300BF096D /* Debug */,
-				4FCB410B1FA8AB6300BF096D /* Release */,
+				A914ACBE20B294F90040FB41 /* Debug */,
+				A914ACBF20B294F90040FB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
