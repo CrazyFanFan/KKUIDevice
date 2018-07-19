@@ -7,89 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A98BCCEC20B2851D0084E42F /* KKUIDevice_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98BCCE220B2851D0084E42F /* KKUIDevice_swift.framework */; };
-		A98BCCF120B2851D0084E42F /* KKUIDevice_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98BCCF020B2851D0084E42F /* KKUIDevice_swiftTests.swift */; };
-		A98BCCF320B2851D0084E42F /* KKUIDevice_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = A98BCCE520B2851D0084E42F /* KKUIDevice_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98BCCFD20B2862E0084E42F /* UIDevice+KK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98BCCFC20B2862E0084E42F /* UIDevice+KK.swift */; };
-		A98BCCFF20B2874A0084E42F /* K3Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98BCCFE20B2874A0084E42F /* K3Compatible.swift */; };
+		24816E409CC775A415C01050BFCF59B9 /* KKUIDevice_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F629B67A6A04C91F7E2C7A359E53B97 /* KKUIDevice_swift.framework */; };
+		8F97CFB55D6F6EE04B6574242573C6E1 /* UIDevice+KK.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D286C16E334302292E521454FC54C2 /* UIDevice+KK.swift */; };
+		E70C75112DE664F423AEA824AF0B2CF9 /* K3Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E3CE411B89A2D9ED2E2ED8A163E0B9 /* K3Compatible.swift */; };
+		EC042F7876B43F5DEC7345406A7AA052 /* KKUIDevice_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2490167C8F9A5249DDF2322A37B72BD /* KKUIDevice_swiftTests.swift */; };
+		FD940F1CBCA8B21C3B40A953CBD8F622 /* KKUIDevice_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 264B05B09E15730D55D1BA19866AB527 /* KKUIDevice_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A98BCCED20B2851D0084E42F /* PBXContainerItemProxy */ = {
+		14707BDADAB1512F9EBF0B4C7CFFA7C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A98BCCD920B2851D0084E42F /* Project object */;
+			containerPortal = 5593482CCEF78DCCB276C79EBBD4C37A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A98BCCE120B2851D0084E42F;
+			remoteGlobalIDString = 0AB7AD6F90FF647BCB5E37AF243E101E;
 			remoteInfo = "KKUIDevice-swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A914ACC020B2A9800040FB41 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A98BCCE220B2851D0084E42F /* KKUIDevice_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A98BCCE520B2851D0084E42F /* KKUIDevice_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUIDevice_swift.h; sourceTree = "<group>"; };
-		A98BCCE620B2851D0084E42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A98BCCEB20B2851D0084E42F /* KKUIDevice-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KKUIDevice-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A98BCCF020B2851D0084E42F /* KKUIDevice_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKUIDevice_swiftTests.swift; sourceTree = "<group>"; };
-		A98BCCF220B2851D0084E42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A98BCCFC20B2862E0084E42F /* UIDevice+KK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+KK.swift"; sourceTree = "<group>"; };
-		A98BCCFE20B2874A0084E42F /* K3Compatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K3Compatible.swift; sourceTree = "<group>"; };
+		264B05B09E15730D55D1BA19866AB527 /* KKUIDevice_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUIDevice_swift.h; sourceTree = "<group>"; };
+		97BE105058FA0C40E6005A3A43C38128 /* KKUIDevice-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KKUIDevice-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F629B67A6A04C91F7E2C7A359E53B97 /* KKUIDevice_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E3CE411B89A2D9ED2E2ED8A163E0B9 /* K3Compatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K3Compatible.swift; sourceTree = "<group>"; };
+		BC856E86F3E7955708F94BB2CF7C1A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66A7B19FDE5F5AC38A2965A75DB68A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D286C16E334302292E521454FC54C2 /* UIDevice+KK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+KK.swift"; sourceTree = "<group>"; };
+		D1C6D7C4FF9D7C630A78082C14BF19F3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D2490167C8F9A5249DDF2322A37B72BD /* KKUIDevice_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKUIDevice_swiftTests.swift; sourceTree = "<group>"; };
+		FAE8CBFBAD968A3227BF4962BAEF0FDA /* KKUIDevice-swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "KKUIDevice-swift.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A98BCCDE20B2851D0084E42F /* Frameworks */ = {
+		797910C29F518DFE2C310E6CA22E0A57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A98BCCE820B2851D0084E42F /* Frameworks */ = {
+		B0EA50141F20A9923FE11C3B0F94554C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98BCCEC20B2851D0084E42F /* KKUIDevice_swift.framework in Frameworks */,
+				24816E409CC775A415C01050BFCF59B9 /* KKUIDevice_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A98BCCD820B2851D0084E42F = {
+		C6EE6E8E18B99580B5AB822FE2727299 = {
 			isa = PBXGroup;
 			children = (
-				A914ACC020B2A9800040FB41 /* README.md */,
-				A98BCCE420B2851D0084E42F /* KKUIDevice-swift */,
-				A98BCCEF20B2851D0084E42F /* KKUIDevice-swiftTests */,
-				A98BCCE320B2851D0084E42F /* Products */,
+				F06910ADAAF177A956CED0189D255FDF /* KKUIDevice-swift */,
+				214429A985AB4C2873F4D5685664737D /* KKUIDevice-swiftTests */,
+				629EB84CE5CED1895711463B60C918CA /* Products */,
+				FAE8CBFBAD968A3227BF4962BAEF0FDA /* KKUIDevice-swift.podspec */,
+				D1C6D7C4FF9D7C630A78082C14BF19F3 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
-		A98BCCE320B2851D0084E42F /* Products */ = {
+		629EB84CE5CED1895711463B60C918CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A98BCCE220B2851D0084E42F /* KKUIDevice_swift.framework */,
-				A98BCCEB20B2851D0084E42F /* KKUIDevice-swiftTests.xctest */,
+				97BE105058FA0C40E6005A3A43C38128 /* KKUIDevice-swiftTests.xctest */,
+				9F629B67A6A04C91F7E2C7A359E53B97 /* KKUIDevice_swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A98BCCE420B2851D0084E42F /* KKUIDevice-swift */ = {
+		F06910ADAAF177A956CED0189D255FDF /* KKUIDevice-swift */ = {
 			isa = PBXGroup;
 			children = (
-				A98BCCE520B2851D0084E42F /* KKUIDevice_swift.h */,
-				A98BCCE620B2851D0084E42F /* Info.plist */,
-				A98BCCFC20B2862E0084E42F /* UIDevice+KK.swift */,
-				A98BCCFE20B2874A0084E42F /* K3Compatible.swift */,
+				C66A7B19FDE5F5AC38A2965A75DB68A4 /* Info.plist */,
+				B2E3CE411B89A2D9ED2E2ED8A163E0B9 /* K3Compatible.swift */,
+				264B05B09E15730D55D1BA19866AB527 /* KKUIDevice_swift.h */,
+				C7D286C16E334302292E521454FC54C2 /* UIDevice+KK.swift */,
 			);
 			path = "KKUIDevice-swift";
 			sourceTree = "<group>";
 		};
-		A98BCCEF20B2851D0084E42F /* KKUIDevice-swiftTests */ = {
+		214429A985AB4C2873F4D5685664737D /* KKUIDevice-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				A98BCCF020B2851D0084E42F /* KKUIDevice_swiftTests.swift */,
-				A98BCCF220B2851D0084E42F /* Info.plist */,
+				BC856E86F3E7955708F94BB2CF7C1A4A /* Info.plist */,
+				D2490167C8F9A5249DDF2322A37B72BD /* KKUIDevice_swiftTests.swift */,
 			);
 			path = "KKUIDevice-swiftTests";
 			sourceTree = "<group>";
@@ -97,25 +99,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A98BCCDF20B2851D0084E42F /* Headers */ = {
+		C1A80918A572C15F8303EE85390FE124 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98BCCF320B2851D0084E42F /* KKUIDevice_swift.h in Headers */,
+				FD940F1CBCA8B21C3B40A953CBD8F622 /* KKUIDevice_swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A98BCCE120B2851D0084E42F /* KKUIDevice-swift */ = {
+		0AB7AD6F90FF647BCB5E37AF243E101E /* KKUIDevice-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A98BCCF620B2851D0084E42F /* Build configuration list for PBXNativeTarget "KKUIDevice-swift" */;
+			buildConfigurationList = 1549A82CA08D131AA27A473E06CB94C1 /* Build configuration list for PBXNativeTarget "KKUIDevice-swift" */;
 			buildPhases = (
-				A98BCCDD20B2851D0084E42F /* Sources */,
-				A98BCCDE20B2851D0084E42F /* Frameworks */,
-				A98BCCDF20B2851D0084E42F /* Headers */,
-				A98BCCE020B2851D0084E42F /* Resources */,
+				5B5E139893866CB5D6F14BAEAA994D39 /* Sources */,
+				797910C29F518DFE2C310E6CA22E0A57 /* Frameworks */,
+				C1A80918A572C15F8303EE85390FE124 /* Headers */,
+				137783118ECCB6DB8ECBBFCB61E5D9AA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -123,73 +125,73 @@
 			);
 			name = "KKUIDevice-swift";
 			productName = "KKUIDevice-swift";
-			productReference = A98BCCE220B2851D0084E42F /* KKUIDevice_swift.framework */;
+			productReference = 9F629B67A6A04C91F7E2C7A359E53B97 /* KKUIDevice_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A98BCCEA20B2851D0084E42F /* KKUIDevice-swiftTests */ = {
+		6522F7477E9F4F6F67D1EDEEDF344127 /* KKUIDevice-swiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A98BCCF920B2851D0084E42F /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftTests" */;
+			buildConfigurationList = 514E8FD465BF4D495440A372A5514BCA /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftTests" */;
 			buildPhases = (
-				A98BCCE720B2851D0084E42F /* Sources */,
-				A98BCCE820B2851D0084E42F /* Frameworks */,
-				A98BCCE920B2851D0084E42F /* Resources */,
+				18B3DDDD165FD06EEC1B95DB32EEBAC8 /* Sources */,
+				B0EA50141F20A9923FE11C3B0F94554C /* Frameworks */,
+				C643ADC7902D59E2F245188D2B361907 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A98BCCEE20B2851D0084E42F /* PBXTargetDependency */,
+				59A58F735FFAE44F36BD979AD6B8D1DC /* PBXTargetDependency */,
 			);
 			name = "KKUIDevice-swiftTests";
 			productName = "KKUIDevice-swiftTests";
-			productReference = A98BCCEB20B2851D0084E42F /* KKUIDevice-swiftTests.xctest */;
+			productReference = 97BE105058FA0C40E6005A3A43C38128 /* KKUIDevice-swiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A98BCCD920B2851D0084E42F /* Project object */ = {
+		5593482CCEF78DCCB276C79EBBD4C37A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = K3;
 				TargetAttributes = {
-					A98BCCE120B2851D0084E42F = {
+					0AB7AD6F90FF647BCB5E37AF243E101E = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
 					};
-					A98BCCEA20B2851D0084E42F = {
+					6522F7477E9F4F6F67D1EDEEDF344127 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = A98BCCDC20B2851D0084E42F /* Build configuration list for PBXProject "KKUIDevice-swift" */;
+			buildConfigurationList = B25D42F71BF05631C198D30A06E8C214 /* Build configuration list for PBXProject "KKUIDevice-swift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A98BCCD820B2851D0084E42F;
-			productRefGroup = A98BCCE320B2851D0084E42F /* Products */;
+			mainGroup = C6EE6E8E18B99580B5AB822FE2727299;
+			productRefGroup = 629EB84CE5CED1895711463B60C918CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A98BCCE120B2851D0084E42F /* KKUIDevice-swift */,
-				A98BCCEA20B2851D0084E42F /* KKUIDevice-swiftTests */,
+				0AB7AD6F90FF647BCB5E37AF243E101E /* KKUIDevice-swift */,
+				6522F7477E9F4F6F67D1EDEEDF344127 /* KKUIDevice-swiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A98BCCE020B2851D0084E42F /* Resources */ = {
+		137783118ECCB6DB8ECBBFCB61E5D9AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A98BCCE920B2851D0084E42F /* Resources */ = {
+		C643ADC7902D59E2F245188D2B361907 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,35 +201,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A98BCCDD20B2851D0084E42F /* Sources */ = {
+		5B5E139893866CB5D6F14BAEAA994D39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98BCCFD20B2862E0084E42F /* UIDevice+KK.swift in Sources */,
-				A98BCCFF20B2874A0084E42F /* K3Compatible.swift in Sources */,
+				E70C75112DE664F423AEA824AF0B2CF9 /* K3Compatible.swift in Sources */,
+				8F97CFB55D6F6EE04B6574242573C6E1 /* UIDevice+KK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A98BCCE720B2851D0084E42F /* Sources */ = {
+		18B3DDDD165FD06EEC1B95DB32EEBAC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98BCCF120B2851D0084E42F /* KKUIDevice_swiftTests.swift in Sources */,
+				EC042F7876B43F5DEC7345406A7AA052 /* KKUIDevice_swiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A98BCCEE20B2851D0084E42F /* PBXTargetDependency */ = {
+		59A58F735FFAE44F36BD979AD6B8D1DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A98BCCE120B2851D0084E42F /* KKUIDevice-swift */;
-			targetProxy = A98BCCED20B2851D0084E42F /* PBXContainerItemProxy */;
+			target = 0AB7AD6F90FF647BCB5E37AF243E101E /* KKUIDevice-swift */;
+			targetProxy = 14707BDADAB1512F9EBF0B4C7CFFA7C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		A98BCCF420B2851D0084E42F /* Debug */ = {
+		623738914E490821779D90178BDFFBF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		A98BCCF520B2851D0084E42F /* Release */ = {
+		BB39B61F538322EA42E3613B2F785E55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +349,7 @@
 			};
 			name = Release;
 		};
-		A98BCCF720B2851D0084E42F /* Debug */ = {
+		4E2208882933DC888AF31AC8AC966A5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -374,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		A98BCCF820B2851D0084E42F /* Release */ = {
+		460F2560E6478D038C8CB258F00865FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -400,7 +402,7 @@
 			};
 			name = Release;
 		};
-		A98BCCFA20B2851D0084E42F /* Debug */ = {
+		4826353777F74B4F889C9F05A236A3B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -419,7 +421,7 @@
 			};
 			name = Debug;
 		};
-		A98BCCFB20B2851D0084E42F /* Release */ = {
+		5E2F2821E59E293E447C316B57DF32FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -441,34 +443,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A98BCCDC20B2851D0084E42F /* Build configuration list for PBXProject "KKUIDevice-swift" */ = {
+		B25D42F71BF05631C198D30A06E8C214 /* Build configuration list for PBXProject "KKUIDevice-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A98BCCF420B2851D0084E42F /* Debug */,
-				A98BCCF520B2851D0084E42F /* Release */,
+				623738914E490821779D90178BDFFBF5 /* Debug */,
+				BB39B61F538322EA42E3613B2F785E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A98BCCF620B2851D0084E42F /* Build configuration list for PBXNativeTarget "KKUIDevice-swift" */ = {
+		1549A82CA08D131AA27A473E06CB94C1 /* Build configuration list for PBXNativeTarget "KKUIDevice-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A98BCCF720B2851D0084E42F /* Debug */,
-				A98BCCF820B2851D0084E42F /* Release */,
+				4E2208882933DC888AF31AC8AC966A5F /* Debug */,
+				460F2560E6478D038C8CB258F00865FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A98BCCF920B2851D0084E42F /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftTests" */ = {
+		514E8FD465BF4D495440A372A5514BCA /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A98BCCFA20B2851D0084E42F /* Debug */,
-				A98BCCFB20B2851D0084E42F /* Release */,
+				4826353777F74B4F889C9F05A236A3B9 /* Debug */,
+				5E2F2821E59E293E447C316B57DF32FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A98BCCD920B2851D0084E42F /* Project object */;
+	rootObject = 5593482CCEF78DCCB276C79EBBD4C37A /* Project object */;
 }
