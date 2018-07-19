@@ -43,8 +43,10 @@
 }
 
 - (NSDictionary *)deviceModelMapConfig {
-    return @{@"i386" : @"Simulator",
+    return @{// Simulator
+             @"i386" : @"Simulator",
              @"x86_64" : @"Simulator",
+             // iPad
              @"iPad1,1" : @"iPad (1ST)",
              @"iPad2,1" : @"iPad 2",
              @"iPad2,2" : @"iPad 2",
@@ -72,18 +74,26 @@
              @"iPad5,2" : @"iPad Mini 4",
              @"iPad5,3" : @"iPad Air 2",
              @"iPad5,4" : @"iPad Air 2",
-             @"iPad6,3" : @"iPad Pro (9.7&quot;)",
-             @"iPad6,4" : @"iPad Pro (9.7&quot;)",
-             @"iPad6,7" : @"iPad Pro (12.9&quot;)",
-             @"iPad6,8" : @"iPad Pro (12.9&quot;)",
+             @"iPad6,3" : @"iPad Pro (9.7)",
+             @"iPad6,4" : @"iPad Pro (9.7)",
+             @"iPad6,7" : @"iPad Pro (12.9, 1ST)",
+             @"iPad6,8" : @"iPad Pro (12.9, 1ST)",
              @"iPad6,11" : @"iPad (2017)",
              @"iPad6,12" : @"iPad (2017)",
+             @"iPad7,1" : @"iPad Pro (12.9, 2ND)",
+             @"iPad7,2" : @"iPad Pro (12.9, 2ND)",
+             @"iPad7,3" : @"iPad Pro (10.5)",
+             @"iPad7,4" : @"iPad Pro (10.5)",
+             @"iPad7,5" : @"iPad (2018)",
+             @"iPad7,6" : @"iPad (2018)",
+             // iPod
              @"iPod1,1" : @"iPod Touch (1ST)",
              @"iPod2,1" : @"iPod Touch (2ND)",
              @"iPod3,1" : @"iPod Touch (3RD)",
              @"iPod4,1" : @"iPod Touch (4TH)",
              @"iPod5,1" : @"iPod Touch (5TH)",
              @"iPod7,1" : @"iPod Touch (6TH)",
+             // iPhone
              @"iPhone1,1" : @"iPhone",
              @"iPhone1,2" : @"iPhone (3G)",
              @"iPhone2,1" : @"iPhone (3GS)",
