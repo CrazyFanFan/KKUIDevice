@@ -1,0 +1,6 @@
+module KKUIDevice_swift {
+  umbrella header "KKUIDevice-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

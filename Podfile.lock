@@ -1,0 +1,21 @@
+PODS:
+  - KKUIDevice (0.0.3)
+  - KKUIDevice-swift (0.0.3)
+
+DEPENDENCIES:
+  - KKUIDevice (from `./`)
+  - KKUIDevice-swift (from `./`)
+
+EXTERNAL SOURCES:
+  KKUIDevice:
+    :path: "./"
+  KKUIDevice-swift:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  KKUIDevice: 4c479374d4e311cfaa89c54ca318bf7a93cdd8c5
+  KKUIDevice-swift: 47a9bde238997490b737e1aad2d138153b1951fa
+
+PODFILE CHECKSUM: 3effc0a71a4afca98822475959d2d668e409fd39
+
+COCOAPODS: 1.5.3

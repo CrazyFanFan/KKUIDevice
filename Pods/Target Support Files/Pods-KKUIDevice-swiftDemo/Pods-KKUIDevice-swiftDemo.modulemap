@@ -1,0 +1,6 @@
+module Pods_KKUIDevice_swiftDemo {
+  umbrella header "Pods-KKUIDevice-swiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
