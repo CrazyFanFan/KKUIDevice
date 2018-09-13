@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import AdSupport
 
 public let UNKNOWN_DEVICE: String = "unknown device"
 
@@ -26,11 +25,6 @@ public extension K3Base where BaseType == UIDevice {
     /// "unknown device" when it's not define
     public var model: String {
         return deviceModelMapConfig[hardware] ?? UNKNOWN_DEVICE
-    }
-
-    /// IDFA
-    public var advertisingIdentifier: String {
-        return ASIdentifierManager.shared().advertisingIdentifier.uuidString
     }
 
     fileprivate var deviceModelMapConfig: [String : String] {

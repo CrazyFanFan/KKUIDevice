@@ -27,7 +27,6 @@ class KKUIDevice_swiftTests: XCTestCase {
 
         NSLog("%@", UIDevice.current.k3.hardware)
         NSLog("%@", UIDevice.current.k3.model)
-        NSLog("%@", UIDevice.current.k3.advertisingIdentifier)
     }
     
     func testPerformanceExample() {
@@ -36,5 +35,4 @@ class KKUIDevice_swiftTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }

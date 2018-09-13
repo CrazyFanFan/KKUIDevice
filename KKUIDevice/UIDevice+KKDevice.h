@@ -22,10 +22,4 @@
  */
 - (NSString *)KKModel;
 
-
-/**
- @return IDFA
- */
-- (NSString *)KKAdvertisingIdentifier;
-
 @end

@@ -20,7 +20,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"%@", [UIDevice.currentDevice KKHardware]);
     NSLog(@"%@", [UIDevice.currentDevice KKModel]);
-    NSLog(@"%@", [UIDevice.currentDevice KKAdvertisingIdentifier]);
 }
 
 

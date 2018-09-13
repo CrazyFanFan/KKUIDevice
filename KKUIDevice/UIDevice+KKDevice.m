@@ -9,9 +9,6 @@
 #import "UIDevice+KKDevice.h"
 #import <sys/utsname.h>
 
-// ADFA
-#import <AdSupport/AdSupport.h>
-
 @implementation UIDevice (KKDevice)
 
 /**
@@ -33,13 +30,6 @@
     }
     
     return model;
-}
-
-/**
- @return IDFA
- */
-- (NSString *)KKAdvertisingIdentifier {
-    return [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
 }
 
 - (NSDictionary *)deviceModelMapConfig {

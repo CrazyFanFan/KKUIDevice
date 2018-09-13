@@ -17,7 +17,6 @@ class ViewController: UIViewController {
 
         NSLog("%@", UIDevice.current.k3.hardware)
         NSLog("%@", UIDevice.current.k3.model)
-        NSLog("%@", UIDevice.current.k3.advertisingIdentifier)
     }
 
     override func didReceiveMemoryWarning() {
