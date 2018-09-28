@@ -74,7 +74,7 @@
 		007A13F4E364DD94D06C9AA98151EB0C /* KKUIDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKUIDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11159B4E578FD130D91BAE23CB409919 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUIDevice_swift.h; sourceTree = "<group>"; };
-		19A55EF9591C7B5049887E9F31C6BB71 /* KKUIDevice.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KKUIDevice.podspec; sourceTree = "<group>"; };
+		19A55EF9591C7B5049887E9F31C6BB71 /* KKUIDevice.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KKUIDevice.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		20557B284B4F5B7C9DEA7E9886D7B6B8 /* Pods-KKUIDevice-swiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDevice-swiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2EFD4ED365D557A8FA98C1E0A0366950 /* Pods_KKUIDevice_swiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUIDevice_swiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		398A3397184E2ECC8DBC1DD9C52D2C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +160,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1AA621E9F72320291E8136D3BC4758 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		2EF9F8330E93E6050B4704E6E89DEDDF /* KKUIDevice */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,14 +242,6 @@
 			path = "KKUIDevice-swift";
 			sourceTree = "<group>";
 		};
-		2D1AA621E9F72320291E8136D3BC4758 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		D10B1AE072805F7DCFA751574F41A2F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +298,7 @@
 				8E8F548F24A4ED763A345ECB5FA038AC /* Frameworks */,
 				F890DD5618D884B80728E586D0687B4A /* Resources */,
 				6830730E09B93690BC812E58A274734E /* [CP] Copy Pods Resources */,
+				A9E96ADA215E76C100D29B1A /* Swift lint */,
 			);
 			buildRules = (
 			);
@@ -372,6 +373,7 @@
 				BA1A07533E6B7A44B8C299F798250C62 /* Resources */,
 				796A282AEE458237EB7BA436950FFDDD /* Embed Frameworks */,
 				AD97B74F3FA6FC096A9555AC39571B1A /* [CP] Copy Pods Resources */,
+				A9E96ADB215E772C00D29B1A /* Swift lint */,
 			);
 			buildRules = (
 			);
@@ -417,7 +419,7 @@
 					};
 					1D4450991C0698BCC595E2AFA5122896 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					903569A37D253E9F34A26AB8D00DF5ED = {
@@ -430,6 +432,7 @@
 					};
 					A912051A74E1F581323BF38C82C3A019 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					AF99DE69225E4C93124A309DCFDA4845 = {
@@ -513,6 +516,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		666682DA8C3B9465CC261D911728696A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKUIDevice-swiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6830730E09B93690BC812E58A274734E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -535,24 +556,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		666682DA8C3B9465CC261D911728696A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KKUIDevice-swiftDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		93961A8FE6A8640504C14756D28D5D6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -570,6 +573,43 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A9E96ADA215E76C100D29B1A /* Swift lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9E96ADB215E772C00D29B1A /* Swift lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		AD97B74F3FA6FC096A9555AC39571B1A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -721,7 +761,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.KKUIDevice-swiftDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -952,7 +992,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1022,7 +1062,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1045,7 +1085,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
