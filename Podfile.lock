@@ -1,8 +1,8 @@
 PODS:
-  - KKUIDevice/ObjectiveC (0.0.4):
+  - KKUIDevice/ObjectiveC (0.0.5):
     - KKUIDevice/Resources
-  - KKUIDevice/Resources (0.0.4)
-  - KKUIDevice/Swift (0.0.4):
+  - KKUIDevice/Resources (0.0.5)
+  - KKUIDevice/Swift (0.0.5):
     - KKUIDevice/Resources
 
 DEPENDENCIES:
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  KKUIDevice: 872ddb5b6d753113ed66a8cf96788975879ee0b0
+  KKUIDevice: dea0e41b1c9b716d149957ad40cd3cb0f2a92ecb
 
 PODFILE CHECKSUM: bb830fea62056e6fa487b97570c13baf642bc800
 

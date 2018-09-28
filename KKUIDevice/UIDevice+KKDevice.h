@@ -16,7 +16,6 @@
  */
 - (NSString *)kkHardware;
 
-
 /**
  @return device model (device name, e.g. iPhone6/iPhone 6 Plus),return "unknown device" when it's not define
  */
