@@ -1,0 +1,21 @@
+PODS:
+  - KKUIDevice/ObjectiveC (0.0.4):
+    - KKUIDevice/Resources
+  - KKUIDevice/Resources (0.0.4)
+  - KKUIDevice/Swift (0.0.4):
+    - KKUIDevice/Resources
+
+DEPENDENCIES:
+  - KKUIDevice/ObjectiveC (from `./`)
+  - KKUIDevice/Swift (from `./`)
+
+EXTERNAL SOURCES:
+  KKUIDevice:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  KKUIDevice: 872ddb5b6d753113ed66a8cf96788975879ee0b0
+
+PODFILE CHECKSUM: bb830fea62056e6fa487b97570c13baf642bc800
+
+COCOAPODS: 1.5.3

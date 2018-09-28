@@ -3,3 +3,6 @@
 
 #AppCode Config
 **/.idea/*
+
+#pods
+**/Pods/**
