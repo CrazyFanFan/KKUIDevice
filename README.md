@@ -37,7 +37,12 @@
 ## Note
 
 If you get error: *[UIDevice KKHardware]: unrecognized selector sent to instance 0x60400003e900*
-add ***'-ObjC'*** to: **Project** -> **Your Taget** -> **Build Settings** -> **Other Linker Flags** 
+
+add: ***'-ObjC'***  
+to:  **Project** 
+-> **Your Taget** 
+-> **Build Settings**
+-> **Other Linker Flags** 
 
 
 # Author
@@ -129,4 +134,3 @@ KKUIDevice is released under the MIT license. See [LICENSE](https://github.com/C
 |iPhone11,4|iPhone XS Max|
 |iPhone11,6|iPhone XS Max|
 |iPhone11,8|iPhone X|
-
