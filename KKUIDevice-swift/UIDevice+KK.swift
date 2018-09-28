@@ -107,6 +107,11 @@ public extension K3Base where BaseType == UIDevice {
             "iPhone10,3" : "iPhone X",
             "iPhone10,4" : "iPhone 8",
             "iPhone10,5" : "iPhone 8 Plus",
-            "iPhone10,6" : "iPhone X"]
+            "iPhone10,6" : "iPhone X",
+            "iPhone11,2" : "iPhone XS",
+            "iPhone11,4" : "iPhone XS Max",
+            "iPhone11,6" : "iPhone XS Max",
+            "iPhone11,8" : "iPhone XR"
+        ]
     }
 }
