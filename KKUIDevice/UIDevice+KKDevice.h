@@ -14,18 +14,12 @@
 /**
  @return "Hardware strings"(eg. iPhone10,1)
  */
-- (NSString *)KKHardware;
+- (NSString *)kkHardware;
 
 
 /**
  @return device model (device name, e.g. iPhone6/iPhone 6 Plus),return "unknown device" when it's not define
  */
-- (NSString *)KKModel;
-
-
-/**
- @return IDFA
- */
-- (NSString *)KKAdvertisingIdentifier;
+- (NSString *)kkModel;
 
 @end
