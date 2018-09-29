@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.subspec "Swift" do |cs|
     cs.source_files   = "KKUIDevice-swift", "KKUIDevice-swift/**/*.{h,swift}"
     cs.dependency "KKUIDevice/Resources"
+    cs.dependency "K3Base"
   end
 
   s.subspec "Resources" do |cs|

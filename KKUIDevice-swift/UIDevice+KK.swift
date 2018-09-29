@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import K3Base
 
 public let UNKNOWN_DEVICE: String = "unknown device"
 
