@@ -84,6 +84,22 @@
 	<string>iPad (2018)</string>
 	<key>iPad7,6</key>
 	<string>iPad (2018)</string>
+	<key>iPad8,1</key>
+	<string>iPad Pro 11-inch</string>
+	<key>iPad8,2</key>
+	<string>iPad Pro 11-inch</string>
+	<key>iPad8,3</key>
+	<string>iPad Pro 11-inch</string>
+	<key>iPad8,4</key>
+	<string>iPad Pro 11-inch</string>
+	<key>iPad8,5</key>
+	<string>iPad Pro 12.9-inch(3RD)</string>
+	<key>iPad8,6</key>
+	<string>iPad Pro 12.9-inch(3RD)</string>
+	<key>iPad8,7</key>
+	<string>iPad Pro 12.9-inch(3RD)</string>
+	<key>iPad8,8</key>
+	<string>iPad Pro 12.9-inch(3RD)</string>
 	<key>iPod1,1</key>
 	<string>iPod Touch (1ST)</string>
 	<key>iPod2,1</key>
