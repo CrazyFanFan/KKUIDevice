@@ -1,6 +1,6 @@
 //
 //  UIDevice+KK.swift
-//  KKUIDevice-swift
+//  KKUIDevice
 //
 //  Created by C凡 on 2018/5/21.
 //  Copyright © 2018年 C凡. All rights reserved.
@@ -18,8 +18,9 @@ public extension KKBase where BaseType == UIDevice {
     var hardware: String {
         var systemInfo = utsname.init()
         uname(&systemInfo)
-        return String(data: Data(bytes: &systemInfo.machine, count: Int(_SYS_NAMELEN)),
-                      encoding: .utf8)!.replacingOccurrences(of: "\0", with: "")
+        return String(
+            data: Data(bytes: &systemInfo.machine, count: Int(_SYS_NAMELEN)),
+            encoding: .utf8)!.replacingOccurrences(of: "\0", with: "")
     }
 
     /// device model (device name, e.g. iPhone6/iPhone 6 Plus)

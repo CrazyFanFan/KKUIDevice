@@ -3,7 +3,7 @@
 //  KKUIDevice-swiftDemo
 //
 //  Created by C凡 on 2018/9/13.
-//  Copyright © 2018年 Crazy凡. All rights reserved.
+//  Copyright © 2018年 C凡. All rights reserved.
 //
 
 import UIKit
