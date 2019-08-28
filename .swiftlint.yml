@@ -1,6 +1,6 @@
 included:
-  - KKUIDevice-swiftDemo
-  - KKUIDevice-swift
+  - KKUIDeviceDemo
+  - KKUIDevice
 excluded:
 disabled_rules:
   - sorted_imports

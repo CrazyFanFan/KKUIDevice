@@ -2,14 +2,7 @@
 platform :ios, '8.0'
 inhibit_all_warnings!
 
-gem 'cocoapods'
-
-#target 'KKUIDeviceDemo' do
-#  use_frameworks!
-#  pod 'KKUIDevice', :path => './', :subspecs => ["ObjectiveC"]
-#end
-
-target 'KKUIDevice-swiftDemo' do
+target 'KKUIDeviceDemo' do
   use_frameworks!
-  pod 'KKUIDevice', :path => './', :subspecs => ["Swift"]
+  pod 'KKUIDevice', :path => './'
 end

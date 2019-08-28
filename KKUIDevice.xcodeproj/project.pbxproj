@@ -7,148 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0035221D04F94A29C82650367D3A536A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CDEED84A8D1DF009660E2D4368C36A /* ViewController.swift */; };
 		070D6BB2C35F402156F5EBE6A53A2A01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402FB71D34B4EAEF0DD7C3D02B3D7A92 /* Assets.xcassets */; };
-		2559D7B0D2E6E80A55393F3F57741FE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A121B2C4BEC5D48EFBF88245914BCEC /* AppDelegate.m */; };
-		2B98BAB762DA3FA38B04E3D6D2E26185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD6EEABD66867F856709CB1ACA9CFF /* main.m */; };
-		2C295CAF427619B602679FAD9A4DC1C5 /* DeviceMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */; };
-		2FE9793AD72F68B6A81205025B9094EC /* UIDevice+KKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A45746FF06F52368A1F21625078A91 /* UIDevice+KKDevice.m */; };
-		69B6E70AADD08A8230B80D8539A4A2BD /* UIDevice+KKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EF9A09F96FDA5D14F195486755C595 /* UIDevice+KKDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71FB89A4CBA72D8371477E3B42E957D2 /* DeviceMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */; };
-		7912E83913E2E392EA7CCC216456D671 /* KKUIDevice_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AF2A67177306B6891B09E1B4C9BDAFA /* KKUIDevice_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */; };
-		94C3457AD5F0BF2AC826358CB372D8A3 /* KKCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DA608D9CFDC31D0619582A05DB4DF /* KKCompatible.swift */; };
-		B3E57351331F1E0FA7066AD2613A55B0 /* UIDevice+KK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1333BF00CC86DBB0EF93ECF109AFA /* UIDevice+KK.swift */; };
-		B6AFAF35460A117AD58E5A589DE1F545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8981DA1EA180A562C17D87B5069B2C /* ViewController.m */; };
-		B6C94DA2DB03B5E9C4C58711087A9D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488257139D28D41EB0CD15422FE1D6D0 /* AppDelegate.swift */; };
-		BDA4B88C635ACA2FC9B7DA648EE89DF5 /* KKUIDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F37789DC45E26EF2B8F334CBD139A2BE /* KKUIDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF821F621F1A6F00966750FB3FCF49BF /* KKUIDevice_swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C0505AADEAF6B27436370A0606A9C9F6 /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */; };
-		CAC6BDAE531561111A9DEE479826DA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98AD698370BA980C65C054C4E0D4E78 /* LaunchScreen.storyboard */; };
-		D3E2D5D83269D1C9236CE976FABDE766 /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */; };
-		DA055B5408CF6036D562FB57AC5E1889 /* Pods_KKUIDevice_swiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFD4ED365D557A8FA98C1E0A0366950 /* Pods_KKUIDevice_swiftDemo.framework */; };
-		DBEAA456B8C5AA2BAE7E3DF63022B6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CB7273984314FF8B88997D7F6BF5D8 /* Assets.xcassets */; };
-		DC0CE9203F43C2C2CB07B26C6F6C47C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A3397184E2ECC8DBC1DD9C52D2C9D /* ViewController.swift */; };
+		3419BA6D0D49D3EFB1F3AA269FF20C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99066928357D035FF270317DAD82FFDA /* AppDelegate.swift */; };
+		BBBA2E2AC5A63DEDFC4D29C5FF3ADF54 /* Pods_KKUIDeviceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E207C51D91DB22ABA727082D29DFE34 /* Pods_KKUIDeviceDemo.framework */; };
 		FA0DED19C7FC103F79E7829636D5912F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3149546A1FE1486D172B6B906EC8E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2E5D4678C9D05A44995D93A9883D634F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D02B1367404AC81B0B0A67D051A3FE22 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D4450991C0698BCC595E2AFA5122896;
-			remoteInfo = "KKUIDevice-swift";
-		};
-		E8FAF46CCE8D1328C8A8C66050BBB764 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D02B1367404AC81B0B0A67D051A3FE22 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF99DE69225E4C93124A309DCFDA4845;
-			remoteInfo = KKUIDevice;
-		};
-		E99C79C50D416412F05EB59306C40527 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D02B1367404AC81B0B0A67D051A3FE22 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF99DE69225E4C93124A309DCFDA4845;
-			remoteInfo = KKUIDevice;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		796A282AEE458237EB7BA436950FFDDD /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				BF821F621F1A6F00966750FB3FCF49BF /* KKUIDevice_swift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		007A13F4E364DD94D06C9AA98151EB0C /* KKUIDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKUIDeviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11159B4E578FD130D91BAE23CB409919 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUIDevice_swift.h; sourceTree = "<group>"; };
+		14CDEED84A8D1DF009660E2D4368C36A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19A55EF9591C7B5049887E9F31C6BB71 /* KKUIDevice.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KKUIDevice.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		20557B284B4F5B7C9DEA7E9886D7B6B8 /* Pods-KKUIDevice-swiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDevice-swiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2EFD4ED365D557A8FA98C1E0A0366950 /* Pods_KKUIDevice_swiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUIDevice_swiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		329DA608D9CFDC31D0619582A05DB4DF /* KKCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCompatible.swift; sourceTree = "<group>"; };
-		398A3397184E2ECC8DBC1DD9C52D2C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CEB806CE661FBB6FCCC7CE867ADEE46 /* KKUIDeviceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKUIDeviceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402FB71D34B4EAEF0DD7C3D02B3D7A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		488257139D28D41EB0CD15422FE1D6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EA0D02B9197B0ECA32FA37C204C7C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684F17656222DC30ADA5E4451D23D168 /* Pods-KKUIDeviceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDeviceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo.release.xcconfig"; sourceTree = "<group>"; };
 		68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DeviceMap.plist; sourceTree = "<group>"; };
-		76CB7273984314FF8B88997D7F6BF5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80A45746FF06F52368A1F21625078A91 /* UIDevice+KKDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+KKDevice.m"; sourceTree = "<group>"; };
-		90352D3BFA4A44B07ACD1E8B7D5318A8 /* KKUIDevice-swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KKUIDevice-swiftDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90F378D1989EA8B5F50B41A581A0EADF /* KKUIDevice-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KKUIDevice-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A121B2C4BEC5D48EFBF88245914BCEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9B8981DA1EA180A562C17D87B5069B2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E207C51D91DB22ABA727082D29DFE34 /* Pods_KKUIDeviceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUIDeviceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99066928357D035FF270317DAD82FFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C935C9DC45F7B6AF60E65EB3E1AF361 /* Pods-KKUIDevice-swiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDevice-swiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A4BFB8ECFA8FF5E4D46BB2F66D0087E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4EF9A09F96FDA5D14F195486755C595 /* UIDevice+KKDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+KKDevice.h"; sourceTree = "<group>"; };
-		A5C6402833203E3D94639CF42462EA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBB1D631D36206E3680F99D292E91B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C3B7B4E3E5EE94D89006E3C797C4E249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3CD6EEABD66867F856709CB1ACA9CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA6FFE1CF863D5E90BDB90A9587826DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F37789DC45E26EF2B8F334CBD139A2BE /* KKUIDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUIDevice.h; sourceTree = "<group>"; };
+		C0526CB6D53128EE0ECB8FD868168F1B /* Pods-KKUIDeviceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDeviceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F93ADADD1072E8183F848CDAA14E25DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAF1333BF00CC86DBB0EF93ECF109AFA /* UIDevice+KK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+KK.swift"; sourceTree = "<group>"; };
 		FB42D4FEF2A5FFDCAE4E23297D8DC961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DD0C026F6811EAE8C59F1D5756B7C67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0F1495CD6CB3148210C6CEE1384C3783 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AF2A67177306B6891B09E1B4C9BDAFA /* KKUIDevice_swift.framework in Frameworks */,
-				DA055B5408CF6036D562FB57AC5E1889 /* Pods_KKUIDevice_swiftDemo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8E8F548F24A4ED763A345ECB5FA038AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3AEBDAF0962174BD6128938E6053BCC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBAA8AE3EEB8D0382ABD072B5E9F929D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3E2D5D83269D1C9236CE976FABDE766 /* KKUIDevice.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2FFC445F9E6D7A94C0CC2FFF71F5390 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0505AADEAF6B27436370A0606A9C9F6 /* KKUIDevice.framework in Frameworks */,
+				BBBA2E2AC5A63DEDFC4D29C5FF3ADF54 /* Pods_KKUIDeviceDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,28 +52,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		2EF9F8330E93E6050B4704E6E89DEDDF /* KKUIDevice */ = {
-			isa = PBXGroup;
-			children = (
-				4EA0D02B9197B0ECA32FA37C204C7C39 /* Info.plist */,
-				F37789DC45E26EF2B8F334CBD139A2BE /* KKUIDevice.h */,
-				A4EF9A09F96FDA5D14F195486755C595 /* UIDevice+KKDevice.h */,
-				80A45746FF06F52368A1F21625078A91 /* UIDevice+KKDevice.m */,
-			);
-			path = KKUIDevice;
-			sourceTree = "<group>";
-		};
 		4221C094FF83CA998FDF495246B63711 /* KKUIDeviceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BBB1D631D36206E3680F99D292E91B9E /* AppDelegate.h */,
-				9A121B2C4BEC5D48EFBF88245914BCEC /* AppDelegate.m */,
+				99066928357D035FF270317DAD82FFDA /* AppDelegate.swift */,
 				402FB71D34B4EAEF0DD7C3D02B3D7A92 /* Assets.xcassets */,
 				FB42D4FEF2A5FFDCAE4E23297D8DC961 /* Info.plist */,
 				4CB3149546A1FE1486D172B6B906EC8E /* LaunchScreen.storyboard */,
-				A4BFB8ECFA8FF5E4D46BB2F66D0087E5 /* ViewController.h */,
-				9B8981DA1EA180A562C17D87B5069B2C /* ViewController.m */,
-				D3CD6EEABD66867F856709CB1ACA9CFF /* main.m */,
+				14CDEED84A8D1DF009660E2D4368C36A /* ViewController.swift */,
 			);
 			path = KKUIDeviceDemo;
 			sourceTree = "<group>";
@@ -192,30 +67,16 @@
 		51CDE13B5E3491C47B23B43C1F9E993C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E207C51D91DB22ABA727082D29DFE34 /* Pods_KKUIDeviceDemo.framework */,
 				2EFD4ED365D557A8FA98C1E0A0366950 /* Pods_KKUIDevice_swiftDemo.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5FE63117A237ACFED4199C8F3A946C3E /* KKUIDevice-swiftDemo */ = {
-			isa = PBXGroup;
-			children = (
-				488257139D28D41EB0CD15422FE1D6D0 /* AppDelegate.swift */,
-				76CB7273984314FF8B88997D7F6BF5D8 /* Assets.xcassets */,
-				A5C6402833203E3D94639CF42462EA7C /* Info.plist */,
-				D98AD698370BA980C65C054C4E0D4E78 /* LaunchScreen.storyboard */,
-				398A3397184E2ECC8DBC1DD9C52D2C9D /* ViewController.swift */,
-			);
-			path = "KKUIDevice-swiftDemo";
 			sourceTree = "<group>";
 		};
 		81A27EF142D89B7C612DB403E2EB36FE = {
 			isa = PBXGroup;
 			children = (
 				51CDE13B5E3491C47B23B43C1F9E993C /* Frameworks */,
-				2EF9F8330E93E6050B4704E6E89DEDDF /* KKUIDevice */,
-				A635F1BF8682356D290C5B466CCAB296 /* KKUIDevice-swift */,
-				5FE63117A237ACFED4199C8F3A946C3E /* KKUIDevice-swiftDemo */,
 				4221C094FF83CA998FDF495246B63711 /* KKUIDeviceDemo */,
 				E3014808D1697952AED69F56826CE1CB /* Pods */,
 				D10B1AE072805F7DCFA751574F41A2F5 /* Products */,
@@ -225,26 +86,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		A635F1BF8682356D290C5B466CCAB296 /* KKUIDevice-swift */ = {
-			isa = PBXGroup;
-			children = (
-				C3B7B4E3E5EE94D89006E3C797C4E249 /* Info.plist */,
-				329DA608D9CFDC31D0619582A05DB4DF /* KKCompatible.swift */,
-				17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */,
-				FAF1333BF00CC86DBB0EF93ECF109AFA /* UIDevice+KK.swift */,
-			);
-			path = "KKUIDevice-swift";
-			sourceTree = "<group>";
-		};
 		D10B1AE072805F7DCFA751574F41A2F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90352D3BFA4A44B07ACD1E8B7D5318A8 /* KKUIDevice-swiftDemo.app */,
-				90F378D1989EA8B5F50B41A581A0EADF /* KKUIDevice-swiftTests.xctest */,
-				47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */,
 				3CEB806CE661FBB6FCCC7CE867ADEE46 /* KKUIDeviceDemo.app */,
-				007A13F4E364DD94D06C9AA98151EB0C /* KKUIDeviceTests.xctest */,
-				EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,41 +99,24 @@
 			children = (
 				9C935C9DC45F7B6AF60E65EB3E1AF361 /* Pods-KKUIDevice-swiftDemo.debug.xcconfig */,
 				20557B284B4F5B7C9DEA7E9886D7B6B8 /* Pods-KKUIDevice-swiftDemo.release.xcconfig */,
+				C0526CB6D53128EE0ECB8FD868168F1B /* Pods-KKUIDeviceDemo.debug.xcconfig */,
+				684F17656222DC30ADA5E4451D23D168 /* Pods-KKUIDeviceDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		07FD17D71B9A5B4EDDB088D9306F74A7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7912E83913E2E392EA7CCC216456D671 /* KKUIDevice_swift.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB07A7FC5187F61FBDCC161B7EE8DA3B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDA4B88C635ACA2FC9B7DA648EE89DF5 /* KKUIDevice.h in Headers */,
-				69B6E70AADD08A8230B80D8539A4A2BD /* UIDevice+KKDevice.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		17533B7B50E18658D4A17321A5655B8A /* KKUIDeviceDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C075FE8ABCB825D2720AB29B49D1E5E /* Build configuration list for PBXNativeTarget "KKUIDeviceDemo" */;
 			buildPhases = (
+				93961A8FE6A8640504C14756D28D5D6A /* [CP] Check Pods Manifest.lock */,
 				E60DF1F87412AFFEB4DC5BC83C0B4D36 /* Sources */,
 				8E8F548F24A4ED763A345ECB5FA038AC /* Frameworks */,
 				F890DD5618D884B80728E586D0687B4A /* Resources */,
-				C9B36A9ABD8C41FD87A369EC4419F327 /* Swift lint */,
+				3087B030BD80ADC4BC1397B091EEFE57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,134 +127,18 @@
 			productReference = 3CEB806CE661FBB6FCCC7CE867ADEE46 /* KKUIDeviceDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D4450991C0698BCC595E2AFA5122896 /* KKUIDevice-swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02EDB1F36D445FD29B6D101BC67BD615 /* Build configuration list for PBXNativeTarget "KKUIDevice-swift" */;
-			buildPhases = (
-				0662261FB51D6D6A9293B0EC7FC0BF5D /* Sources */,
-				0DD0C026F6811EAE8C59F1D5756B7C67 /* Frameworks */,
-				07FD17D71B9A5B4EDDB088D9306F74A7 /* Headers */,
-				1E2764CB28B7D042E00EA56BA2A4CF43 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "KKUIDevice-swift";
-			productName = "KKUIDevice-swift";
-			productReference = EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		903569A37D253E9F34A26AB8D00DF5ED /* KKUIDevice-swiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6C6B869A333931307FEF2E7F84C24A52 /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftTests" */;
-			buildPhases = (
-				0CB20DE6DBECC904BE190DF14B54D2C4 /* Sources */,
-				D2FFC445F9E6D7A94C0CC2FFF71F5390 /* Frameworks */,
-				605A48E588338887CE6027DDC4424DC2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04121C252D66963209BF5BB7CD4B87F3 /* PBXTargetDependency */,
-			);
-			name = "KKUIDevice-swiftTests";
-			productName = "KKUIDevice-swiftTests";
-			productReference = 90F378D1989EA8B5F50B41A581A0EADF /* KKUIDevice-swiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9D5008B74ED40A146EF13C4EC41277D1 /* KKUIDeviceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E93B5BE2CEF76F9EB898E83058A7A70E /* Build configuration list for PBXNativeTarget "KKUIDeviceTests" */;
-			buildPhases = (
-				611298726E28CF6532D34F6C050CEB27 /* Sources */,
-				CBAA8AE3EEB8D0382ABD072B5E9F929D /* Frameworks */,
-				EDF361DC0C9235FDD77E6879E2B52C2A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CAD43FBE3F84F8F58421966F72E12143 /* PBXTargetDependency */,
-			);
-			name = KKUIDeviceTests;
-			productName = KKUIDeviceTests;
-			productReference = 007A13F4E364DD94D06C9AA98151EB0C /* KKUIDeviceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A912051A74E1F581323BF38C82C3A019 /* KKUIDevice-swiftDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 408C55DFAF27DE9592AC0DA72C62B922 /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftDemo" */;
-			buildPhases = (
-				666682DA8C3B9465CC261D911728696A /* [CP] Check Pods Manifest.lock */,
-				BA810C727C100EA4A618028144277751 /* Sources */,
-				0F1495CD6CB3148210C6CEE1384C3783 /* Frameworks */,
-				BA1A07533E6B7A44B8C299F798250C62 /* Resources */,
-				796A282AEE458237EB7BA436950FFDDD /* Embed Frameworks */,
-				AABE2177710448951D58DBE3B769F4E9 /* [CP] Copy Pods Resources */,
-				9287E9025E944D9E0C1B312D37447E62 /* Swift lint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1AB2455F15819B8A03C663B5BBF04353 /* PBXTargetDependency */,
-			);
-			name = "KKUIDevice-swiftDemo";
-			productName = "KKUIDevice-swiftDemo";
-			productReference = 90352D3BFA4A44B07ACD1E8B7D5318A8 /* KKUIDevice-swiftDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		AF99DE69225E4C93124A309DCFDA4845 /* KKUIDevice */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A345A6FD5F0F23F6C5B3DD36599C4973 /* Build configuration list for PBXNativeTarget "KKUIDevice" */;
-			buildPhases = (
-				59A9F0BD2B54D32DC9B328C60E54DCE3 /* Sources */,
-				C3AEBDAF0962174BD6128938E6053BCC /* Frameworks */,
-				DB07A7FC5187F61FBDCC161B7EE8DA3B /* Headers */,
-				CB483F071CD4BD5A54409308EA7CF7D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KKUIDevice;
-			productName = KKUIDevice;
-			productReference = 47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D02B1367404AC81B0B0A67D051A3FE22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Crazy凡";
 				TargetAttributes = {
 					17533B7B50E18658D4A17321A5655B8A = {
-						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
-					};
-					1D4450991C0698BCC595E2AFA5122896 = {
-						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1100;
-						ProvisioningStyle = Automatic;
-					};
-					903569A37D253E9F34A26AB8D00DF5ED = {
-						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
-					};
-					9D5008B74ED40A146EF13C4EC41277D1 = {
-						CreatedOnToolsVersion = 9.3;
-						ProvisioningStyle = Automatic;
-					};
-					A912051A74E1F581323BF38C82C3A019 = {
-						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1100;
-						ProvisioningStyle = Automatic;
-					};
-					AF99DE69225E4C93124A309DCFDA4845 = {
-						CreatedOnToolsVersion = 9.0.1;
+						CreatedOnToolsVersion = 10.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -444,56 +156,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF99DE69225E4C93124A309DCFDA4845 /* KKUIDevice */,
-				9D5008B74ED40A146EF13C4EC41277D1 /* KKUIDeviceTests */,
-				A912051A74E1F581323BF38C82C3A019 /* KKUIDevice-swiftDemo */,
 				17533B7B50E18658D4A17321A5655B8A /* KKUIDeviceDemo */,
-				1D4450991C0698BCC595E2AFA5122896 /* KKUIDevice-swift */,
-				903569A37D253E9F34A26AB8D00DF5ED /* KKUIDevice-swiftTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E2764CB28B7D042E00EA56BA2A4CF43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C295CAF427619B602679FAD9A4DC1C5 /* DeviceMap.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		605A48E588338887CE6027DDC4424DC2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA1A07533E6B7A44B8C299F798250C62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBEAA456B8C5AA2BAE7E3DF63022B6AD /* Assets.xcassets in Resources */,
-				CAC6BDAE531561111A9DEE479826DA51 /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB483F071CD4BD5A54409308EA7CF7D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71FB89A4CBA72D8371477E3B42E957D2 /* DeviceMap.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDF361DC0C9235FDD77E6879E2B52C2A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F890DD5618D884B80728E586D0687B4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,151 +174,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		666682DA8C3B9465CC261D911728696A /* [CP] Check Pods Manifest.lock */ = {
+		3087B030BD80ADC4BC1397B091EEFE57 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KKUIDevice/KKUIDevice.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KKUIDevice.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93961A8FE6A8640504C14756D28D5D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KKUIDevice-swiftDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KKUIDeviceDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C9B36A9ABD8C41FD87A369EC4419F327 /* Swift lint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Swift lint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9287E9025E944D9E0C1B312D37447E62 /* Swift lint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Swift lint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		AABE2177710448951D58DBE3B769F4E9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/KKUIDevice/KKUIDeviceBundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KKUIDeviceBundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0662261FB51D6D6A9293B0EC7FC0BF5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94C3457AD5F0BF2AC826358CB372D8A3 /* KKCompatible.swift in Sources */,
-				B3E57351331F1E0FA7066AD2613A55B0 /* UIDevice+KK.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0CB20DE6DBECC904BE190DF14B54D2C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59A9F0BD2B54D32DC9B328C60E54DCE3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FE9793AD72F68B6A81205025B9094EC /* UIDevice+KKDevice.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		611298726E28CF6532D34F6C050CEB27 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA810C727C100EA4A618028144277751 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6C94DA2DB03B5E9C4C58711087A9D39 /* AppDelegate.swift in Sources */,
-				DC0CE9203F43C2C2CB07B26C6F6C47C9 /* ViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E60DF1F87412AFFEB4DC5BC83C0B4D36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2559D7B0D2E6E80A55393F3F57741FE4 /* AppDelegate.m in Sources */,
-				B6AFAF35460A117AD58E5A589DE1F545 /* ViewController.m in Sources */,
-				2B98BAB762DA3FA38B04E3D6D2E26185 /* main.m in Sources */,
+				3419BA6D0D49D3EFB1F3AA269FF20C35 /* AppDelegate.swift in Sources */,
+				0035221D04F94A29C82650367D3A536A /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04121C252D66963209BF5BB7CD4B87F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF99DE69225E4C93124A309DCFDA4845 /* KKUIDevice */;
-			targetProxy = E99C79C50D416412F05EB59306C40527 /* PBXContainerItemProxy */;
-		};
-		1AB2455F15819B8A03C663B5BBF04353 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D4450991C0698BCC595E2AFA5122896 /* KKUIDevice-swift */;
-			targetProxy = 2E5D4678C9D05A44995D93A9883D634F /* PBXContainerItemProxy */;
-		};
-		CAD43FBE3F84F8F58421966F72E12143 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF99DE69225E4C93124A309DCFDA4845 /* KKUIDevice */;
-			targetProxy = E8FAF46CCE8D1328C8A8C66050BBB764 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4CB3149546A1FE1486D172B6B906EC8E /* LaunchScreen.storyboard */ = {
@@ -661,57 +237,9 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D98AD698370BA980C65C054C4E0D4E78 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA6FFE1CF863D5E90BDB90A9587826DF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2C4AEBF0FDB3FFB09729741B3A5EEBAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				INFOPLIST_FILE = KKUIDeviceTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.com.KKUIDeviceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2CC99BF2517C91AB6BCD49774AFCCF1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20557B284B4F5B7C9DEA7E9886D7B6B8 /* Pods-KKUIDevice-swiftDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				INFOPLIST_FILE = "KKUIDevice-swiftDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.KKUIDevice-swiftDemo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		3F224A899FD3D14B3E55643193F83E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -726,6 +254,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -733,6 +262,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -772,49 +302,25 @@
 		};
 		45D519C3018BC1BC206BAC426D80F86F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0526CB6D53128EE0ECB8FD868168F1B /* Pods-KKUIDeviceDemo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV88ACAAR6;
 				INFOPLIST_FILE = KKUIDeviceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					"\"KKUIDevice\"",
-					"-framework",
-					"\"UIKit\"",
-					"-ObjC",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.KKUIDeviceDemo;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongkaikai.com.KKUIDeviceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		54CBE051CE983157C96D80921CE0CD3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				INFOPLIST_FILE = "KKUIDevice-swiftTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.KKUIDevice-swiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 		5658B4029C05EF011A9E50CFDFDA1796 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -830,6 +336,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -837,6 +344,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -870,190 +378,20 @@
 		};
 		6A6549949CA0042D9D563414FCF839B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684F17656222DC30ADA5E4451D23D168 /* Pods-KKUIDeviceDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV88ACAAR6;
 				INFOPLIST_FILE = KKUIDeviceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					"\"KKUIDevice\"",
-					"-framework",
-					"\"UIKit\"",
-					"-ObjC",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.KKUIDeviceDemo;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongkaikai.com.KKUIDeviceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		74D2F89A574F9B91D7C022230D85EF99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				INFOPLIST_FILE = "KKUIDevice-swiftTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.KKUIDevice-swiftTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9700D92D0E6EBFFA30D4B5F9C567527A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "KKUIDevice-swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.KKUIDevice-swift";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9A14922171F8233C79CC043881FFE80A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FAH45WPA2T;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KKUIDevice/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				OTHER_CFLAGS = "-fembed-bitcode";
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.KKUIDevice;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B9A05FBCEFAC2FF0BB23B546E8BD013C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				INFOPLIST_FILE = KKUIDeviceTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.com.KKUIDeviceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C80FC23A51AFDA13391BEDDD88ADE6DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "KKUIDevice-swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.KKUIDevice-swift";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DD80153380675E4BC72B4B1196F79396 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C935C9DC45F7B6AF60E65EB3E1AF361 /* Pods-KKUIDevice-swiftDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HV88ACAAR6;
-				INFOPLIST_FILE = "KKUIDevice-swiftDemo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytedance.KKUIDevice-swiftDemo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E091DC4449A813E141A5C54C702AB051 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FAH45WPA2T;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KKUIDevice/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				OTHER_CFLAGS = "-fembed-bitcode";
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crazyfan.KKUIDevice;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1061,24 +399,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02EDB1F36D445FD29B6D101BC67BD615 /* Build configuration list for PBXNativeTarget "KKUIDevice-swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C80FC23A51AFDA13391BEDDD88ADE6DC /* Debug */,
-				9700D92D0E6EBFFA30D4B5F9C567527A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		408C55DFAF27DE9592AC0DA72C62B922 /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD80153380675E4BC72B4B1196F79396 /* Debug */,
-				2CC99BF2517C91AB6BCD49774AFCCF1E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4C075FE8ABCB825D2720AB29B49D1E5E /* Build configuration list for PBXNativeTarget "KKUIDeviceDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1088,38 +408,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C6B869A333931307FEF2E7F84C24A52 /* Build configuration list for PBXNativeTarget "KKUIDevice-swiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74D2F89A574F9B91D7C022230D85EF99 /* Debug */,
-				54CBE051CE983157C96D80921CE0CD3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A345A6FD5F0F23F6C5B3DD36599C4973 /* Build configuration list for PBXNativeTarget "KKUIDevice" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A14922171F8233C79CC043881FFE80A /* Debug */,
-				E091DC4449A813E141A5C54C702AB051 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DAFB9E7ED8A39D5044045ACB1B7A08E7 /* Build configuration list for PBXProject "KKUIDevice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F224A899FD3D14B3E55643193F83E94 /* Debug */,
 				5658B4029C05EF011A9E50CFDFDA1796 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E93B5BE2CEF76F9EB898E83058A7A70E /* Build configuration list for PBXNativeTarget "KKUIDeviceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9A05FBCEFAC2FF0BB23B546E8BD013C /* Debug */,
-				2C4AEBF0FDB3FFB09729741B3A5EEBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

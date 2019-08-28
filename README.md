@@ -12,27 +12,13 @@
 
     target 'KKUIDevice-swiftDemo' do
       use_frameworks!
-      pod 'KKUIDevice/Swift', :path => './'
+      pod 'KKUIDevice', :path => './'
     end
 
 ### eg.
 
     NSLog("%@", UIDevice.current.kk.hardware)
     NSLog("%@", UIDevice.current.kk.model)
-
-## Objective-C
-
-### cocoapods
-
-    target 'Your Target' do
-      use_frameworks!
-      pod 'KKUIDevice/ObjectiveC', :path => './'
-    end
-
-### eg.
-
-    NSLog(@"%@", [UIDevice.currentDevice kkHardware]);
-    NSLog(@"%@", [UIDevice.currentDevice kkModel]);
 
 ## Note
 
@@ -96,6 +82,14 @@ KKUIDevice is released under the MIT license. See [LICENSE](https://github.com/C
 |iPad7,4|iPad Pro 10.5-inch|
 |iPad7,5|iPad (2018)|
 |iPad7,6|iPad (2018)|
+|iPad8,1|iPad Pro 11-inch|
+|iPad8,2|iPad Pro 11-inch|
+|iPad8,3|iPad Pro 11-inch|
+|iPad8,4|iPad Pro 11-inch|
+|iPad8,5|iPad Pro 12.9-inch(3RD)|
+|iPad8,6|iPad Pro 12.9-inch(3RD)|
+|iPad8,7|iPad Pro 12.9-inch(3RD)|
+|iPad8,8|iPad Pro 12.9-inch(3RD)|
 |iPod1,1|iPod Touch (1ST)|
 |iPod2,1|iPod Touch (2ND)|
 |iPod3,1|iPod Touch (3RD)|
@@ -134,3 +128,6 @@ KKUIDevice is released under the MIT license. See [LICENSE](https://github.com/C
 |iPhone11,4|iPhone XS Max|
 |iPhone11,6|iPhone XS Max|
 |iPhone11,8|iPhone X|
+|iPhone12,1|iPhone 11|
+|iPhone12,3|iPhone 11 Pro|
+|iPhone12,4|iPhone 11 Pro Max|
