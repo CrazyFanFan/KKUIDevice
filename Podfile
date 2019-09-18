@@ -2,7 +2,7 @@
 platform :ios, '8.0'
 inhibit_all_warnings!
 
-gem 'cocoapods', '1.5.3'
+gem 'cocoapods'
 
 target 'KKUIDeviceDemo' do
   use_frameworks!

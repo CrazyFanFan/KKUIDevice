@@ -16,7 +16,7 @@
 		71FB89A4CBA72D8371477E3B42E957D2 /* DeviceMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */; };
 		7912E83913E2E392EA7CCC216456D671 /* KKUIDevice_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF2A67177306B6891B09E1B4C9BDAFA /* KKUIDevice_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */; };
-		A0A10F88F4B24907165B8E669CA342C0 /* K3Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62197CF4D14CA1DA25DDFE0353EDDD29 /* K3Compatible.swift */; };
+		A0A10F88F4B24907165B8E669CA342C0 /* KKCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62197CF4D14CA1DA25DDFE0353EDDD29 /* KKCompatible.swift */; };
 		B3E57351331F1E0FA7066AD2613A55B0 /* UIDevice+KK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1333BF00CC86DBB0EF93ECF109AFA /* UIDevice+KK.swift */; };
 		B6AFAF35460A117AD58E5A589DE1F545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8981DA1EA180A562C17D87B5069B2C /* ViewController.m */; };
 		B6C94DA2DB03B5E9C4C58711087A9D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488257139D28D41EB0CD15422FE1D6D0 /* AppDelegate.swift */; };
@@ -83,7 +83,7 @@
 		47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		488257139D28D41EB0CD15422FE1D6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EA0D02B9197B0ECA32FA37C204C7C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62197CF4D14CA1DA25DDFE0353EDDD29 /* K3Compatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K3Compatible.swift; sourceTree = "<group>"; };
+		62197CF4D14CA1DA25DDFE0353EDDD29 /* KKCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCompatible.swift; sourceTree = "<group>"; };
 		684F17656222DC30ADA5E4451D23D168 /* Pods-KKUIDeviceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDeviceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo.release.xcconfig"; sourceTree = "<group>"; };
 		68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DeviceMap.plist; sourceTree = "<group>"; };
 		76CB7273984314FF8B88997D7F6BF5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -235,7 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				C3B7B4E3E5EE94D89006E3C797C4E249 /* Info.plist */,
-				62197CF4D14CA1DA25DDFE0353EDDD29 /* K3Compatible.swift */,
+				62197CF4D14CA1DA25DDFE0353EDDD29 /* KKCompatible.swift */,
 				17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */,
 				FAF1333BF00CC86DBB0EF93ECF109AFA /* UIDevice+KK.swift */,
 			);
@@ -539,21 +539,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/KKUIDevice-ObjectiveC-Resources/KKUIDeviceBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KKUIDeviceBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		93961A8FE6A8640504C14756D28D5D6A /* [CP] Check Pods Manifest.lock */ = {
@@ -616,21 +612,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/KKUIDevice-Resources-Swift/KKUIDeviceBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KKUIDeviceBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -640,7 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A10F88F4B24907165B8E669CA342C0 /* K3Compatible.swift in Sources */,
+				A0A10F88F4B24907165B8E669CA342C0 /* KKCompatible.swift in Sources */,
 				B3E57351331F1E0FA7066AD2613A55B0 /* UIDevice+KK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

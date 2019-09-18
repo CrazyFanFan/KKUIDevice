@@ -2,8 +2,8 @@
 //  KKUIDevice_swift.h
 //  KKUIDevice-swift
 //
-//  Created by K3 on 2018/5/21.
-//  Copyright © 2018年 K3. All rights reserved.
+//  Created by C凡 on 2018/5/21.
+//  Copyright © 2018年 C凡. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
