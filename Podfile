@@ -9,11 +9,6 @@ target 'KKUIDeviceDemo' do
   pod 'KKUIDevice/ObjectiveC', :path => './'
 end
 
-target 'KKUIDevice-swift' do
-    use_frameworks!
-    pod 'K3Base'
-end
-
 target 'KKUIDevice-swiftDemo' do
   use_frameworks!
   pod 'KKUIDevice/Swift', :path => './'

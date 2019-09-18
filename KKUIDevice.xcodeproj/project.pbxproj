@@ -16,6 +16,7 @@
 		71FB89A4CBA72D8371477E3B42E957D2 /* DeviceMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */; };
 		7912E83913E2E392EA7CCC216456D671 /* KKUIDevice_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AF2A67177306B6891B09E1B4C9BDAFA /* KKUIDevice_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */; };
+		A0A10F88F4B24907165B8E669CA342C0 /* K3Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62197CF4D14CA1DA25DDFE0353EDDD29 /* K3Compatible.swift */; };
 		B3E57351331F1E0FA7066AD2613A55B0 /* UIDevice+KK.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1333BF00CC86DBB0EF93ECF109AFA /* UIDevice+KK.swift */; };
 		B6AFAF35460A117AD58E5A589DE1F545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8981DA1EA180A562C17D87B5069B2C /* ViewController.m */; };
 		B6C94DA2DB03B5E9C4C58711087A9D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488257139D28D41EB0CD15422FE1D6D0 /* AppDelegate.swift */; };
@@ -25,7 +26,6 @@
 		C0505AADEAF6B27436370A0606A9C9F6 /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */; };
 		CAC6BDAE531561111A9DEE479826DA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98AD698370BA980C65C054C4E0D4E78 /* LaunchScreen.storyboard */; };
 		D3E2D5D83269D1C9236CE976FABDE766 /* KKUIDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */; };
-		D8637CEB9B9AFCABB6EBB248658F2490 /* Pods_KKUIDevice_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3FDB6DE1A0CA32C40EA41431BD172CC /* Pods_KKUIDevice_swift.framework */; };
 		DA055B5408CF6036D562FB57AC5E1889 /* Pods_KKUIDevice_swiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFD4ED365D557A8FA98C1E0A0366950 /* Pods_KKUIDevice_swiftDemo.framework */; };
 		DBEAA456B8C5AA2BAE7E3DF63022B6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CB7273984314FF8B88997D7F6BF5D8 /* Assets.xcassets */; };
 		DC0CE9203F43C2C2CB07B26C6F6C47C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A3397184E2ECC8DBC1DD9C52D2C9D /* ViewController.swift */; };
@@ -83,15 +83,14 @@
 		47A7194EA061954CC62D4240478EF2C2 /* KKUIDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		488257139D28D41EB0CD15422FE1D6D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EA0D02B9197B0ECA32FA37C204C7C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62197CF4D14CA1DA25DDFE0353EDDD29 /* K3Compatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K3Compatible.swift; sourceTree = "<group>"; };
 		684F17656222DC30ADA5E4451D23D168 /* Pods-KKUIDeviceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDeviceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo.release.xcconfig"; sourceTree = "<group>"; };
 		68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DeviceMap.plist; sourceTree = "<group>"; };
-		6E8E6C0B3E2676EDDDAEED66A89F0C1F /* Pods-KKUIDevice-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDevice-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDevice-swift/Pods-KKUIDevice-swift.release.xcconfig"; sourceTree = "<group>"; };
 		76CB7273984314FF8B88997D7F6BF5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80A45746FF06F52368A1F21625078A91 /* UIDevice+KKDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+KKDevice.m"; sourceTree = "<group>"; };
 		8E207C51D91DB22ABA727082D29DFE34 /* Pods_KKUIDeviceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUIDeviceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90352D3BFA4A44B07ACD1E8B7D5318A8 /* KKUIDevice-swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KKUIDevice-swiftDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F378D1989EA8B5F50B41A581A0EADF /* KKUIDevice-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KKUIDevice-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97309B7B8A44E3EFEB7DB3E1BC5C4C1F /* Pods-KKUIDevice-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDevice-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDevice-swift/Pods-KKUIDevice-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		9A121B2C4BEC5D48EFBF88245914BCEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9B8981DA1EA180A562C17D87B5069B2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9C935C9DC45F7B6AF60E65EB3E1AF361 /* Pods-KKUIDevice-swiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDevice-swiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +100,6 @@
 		BBB1D631D36206E3680F99D292E91B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0526CB6D53128EE0ECB8FD868168F1B /* Pods-KKUIDeviceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDeviceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B7B4E3E5EE94D89006E3C797C4E249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3FDB6DE1A0CA32C40EA41431BD172CC /* Pods_KKUIDevice_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUIDevice_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CD6EEABD66867F856709CB1ACA9CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA6FFE1CF863D5E90BDB90A9587826DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB54359BFC4A772EBA78609513092498 /* KKUIDevice_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKUIDevice_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8637CEB9B9AFCABB6EBB248658F2490 /* Pods_KKUIDevice_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				8E207C51D91DB22ABA727082D29DFE34 /* Pods_KKUIDeviceDemo.framework */,
-				C3FDB6DE1A0CA32C40EA41431BD172CC /* Pods_KKUIDevice_swift.framework */,
 				2EFD4ED365D557A8FA98C1E0A0366950 /* Pods_KKUIDevice_swiftDemo.framework */,
 			);
 			name = Frameworks;
@@ -239,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				C3B7B4E3E5EE94D89006E3C797C4E249 /* Info.plist */,
+				62197CF4D14CA1DA25DDFE0353EDDD29 /* K3Compatible.swift */,
 				17EEE845098869DD83CF704B94981B3E /* KKUIDevice_swift.h */,
 				FAF1333BF00CC86DBB0EF93ECF109AFA /* UIDevice+KK.swift */,
 			);
@@ -261,8 +258,6 @@
 		E3014808D1697952AED69F56826CE1CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97309B7B8A44E3EFEB7DB3E1BC5C4C1F /* Pods-KKUIDevice-swift.debug.xcconfig */,
-				6E8E6C0B3E2676EDDDAEED66A89F0C1F /* Pods-KKUIDevice-swift.release.xcconfig */,
 				9C935C9DC45F7B6AF60E65EB3E1AF361 /* Pods-KKUIDevice-swiftDemo.debug.xcconfig */,
 				20557B284B4F5B7C9DEA7E9886D7B6B8 /* Pods-KKUIDevice-swiftDemo.release.xcconfig */,
 				C0526CB6D53128EE0ECB8FD868168F1B /* Pods-KKUIDeviceDemo.debug.xcconfig */,
@@ -303,7 +298,7 @@
 				8E8F548F24A4ED763A345ECB5FA038AC /* Frameworks */,
 				F890DD5618D884B80728E586D0687B4A /* Resources */,
 				6830730E09B93690BC812E58A274734E /* [CP] Copy Pods Resources */,
-				C9B36A9ABD8C41FD87A369EC4419F327 /* Swift lint */,
+				A9E96ADA215E76C100D29B1A /* Swift lint */,
 			);
 			buildRules = (
 			);
@@ -318,7 +313,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02EDB1F36D445FD29B6D101BC67BD615 /* Build configuration list for PBXNativeTarget "KKUIDevice-swift" */;
 			buildPhases = (
-				2E3D308C5359806C04E56DE4E5CC63EA /* [CP] Check Pods Manifest.lock */,
 				0662261FB51D6D6A9293B0EC7FC0BF5D /* Sources */,
 				0DD0C026F6811EAE8C59F1D5756B7C67 /* Frameworks */,
 				07FD17D71B9A5B4EDDB088D9306F74A7 /* Headers */,
@@ -379,7 +373,7 @@
 				BA1A07533E6B7A44B8C299F798250C62 /* Resources */,
 				796A282AEE458237EB7BA436950FFDDD /* Embed Frameworks */,
 				AD97B74F3FA6FC096A9555AC39571B1A /* [CP] Copy Pods Resources */,
-				9287E9025E944D9E0C1B312D37447E62 /* Swift lint */,
+				A9E96ADB215E772C00D29B1A /* Swift lint */,
 			);
 			buildRules = (
 			);
@@ -580,7 +574,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C9B36A9ABD8C41FD87A369EC4419F327 /* Swift lint */ = {
+		A9E96ADA215E76C100D29B1A /* Swift lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -599,7 +593,7 @@
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9287E9025E944D9E0C1B312D37447E62 /* Swift lint */ = {
+		A9E96ADB215E772C00D29B1A /* Swift lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -639,28 +633,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2E3D308C5359806C04E56DE4E5CC63EA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KKUIDevice-swift-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -668,6 +640,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A10F88F4B24907165B8E669CA342C0 /* K3Compatible.swift in Sources */,
 				B3E57351331F1E0FA7066AD2613A55B0 /* UIDevice+KK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -999,7 +972,6 @@
 		};
 		9700D92D0E6EBFFA30D4B5F9C567527A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E8E6C0B3E2676EDDDAEED66A89F0C1F /* Pods-KKUIDevice-swift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -1069,7 +1041,6 @@
 		};
 		C80FC23A51AFDA13391BEDDD88ADE6DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97309B7B8A44E3EFEB7DB3E1BC5C4C1F /* Pods-KKUIDevice-swift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
