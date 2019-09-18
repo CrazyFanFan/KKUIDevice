@@ -1,12 +1,9 @@
 PODS:
-  - KKUIDevice/ObjectiveC (0.0.5):
-    - KKUIDevice/Resources
-  - KKUIDevice/Resources (0.0.5)
-  - KKUIDevice/Swift (0.0.5):
+  - KKUIDevice/Resources (0.0.6)
+  - KKUIDevice/Swift (0.0.6):
     - KKUIDevice/Resources
 
 DEPENDENCIES:
-  - KKUIDevice/ObjectiveC (from `./`)
   - KKUIDevice/Swift (from `./`)
 
 EXTERNAL SOURCES:
@@ -14,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  KKUIDevice: a79fe656c5b384740f9ab085ba6c8d8abab9408e
+  KKUIDevice: bf8c3a616c2e5b3a5f413c4f4807b4e18540519c
 
-PODFILE CHECKSUM: 2efc39a60787a34220867b94ec073709803bafcf
+PODFILE CHECKSUM: 2e2af8413f35825d8f424c65a6a32ae95c88b7a1
 
 COCOAPODS: 1.7.5

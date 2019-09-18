@@ -15,7 +15,7 @@ extension UIDevice: KKBaseCompatible {}
 
 public extension KKBase where BaseType == UIDevice {
 
-    public var hardware: String {
+    var hardware: String {
         var systemInfo = utsname.init()
         uname(&systemInfo)
         return String(data: Data(bytes: &systemInfo.machine, count: Int(_SYS_NAMELEN)),
@@ -24,7 +24,7 @@ public extension KKBase where BaseType == UIDevice {
 
     /// device model (device name, e.g. iPhone6/iPhone 6 Plus)
     /// "unknown device" when it's not define
-    public var model: String {
+    var model: String {
         return deviceModelMapConfig[hardware] ?? UNKNOWN_DEVICE
     }
 
