@@ -23,11 +23,11 @@ public protocol KKBaseCompatible {
 }
 
 public extension KKBaseCompatible {
-    public var kk: KKBase<Self> {
+    var kk: KKBase<Self> {
         return KKBase(self)
     }
 
-    public static var kk: KKBase<Self>.Type {
+    static var kk: KKBase<Self>.Type {
         return KKBase.self
     }
 }

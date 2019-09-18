@@ -4,12 +4,12 @@ inhibit_all_warnings!
 
 gem 'cocoapods'
 
-target 'KKUIDeviceDemo' do
-  use_frameworks!
-  pod 'KKUIDevice/ObjectiveC', :path => './'
-end
+#target 'KKUIDeviceDemo' do
+#  use_frameworks!
+#  pod 'KKUIDevice', :path => './', :subspecs => ["ObjectiveC"]
+#end
 
 target 'KKUIDevice-swiftDemo' do
   use_frameworks!
-  pod 'KKUIDevice/Swift', :path => './'
+  pod 'KKUIDevice', :path => './', :subspecs => ["Swift"]
 end

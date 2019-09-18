@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.license     = "MIT"
   s.author      = { "Crazy凡" => "827799383@qq.com" }
   s.platform    = :ios, "8.0"
+  s.swift_version = '5.0'
   s.source      = { :git => "https://github.com/CrazyFanFan/KKUIDevice.git", :tag => "#{s.version}" }
   s.framework   = "UIKit"
   s.requires_arc      = true
