@@ -49,7 +49,7 @@ to:  **Project**
 crazy凡, [ccrazyfan@gmail.com](mailto:ccrazyfan@gmail.com)
 
 # License
-KKUIDevice is released under the MIT license. See [LICENSE](https://github.com/CrazyFanFan/KKUIDevice/blob/master/LICENSE) for details.
+KKUIDevice is released under the MIT license. See [LICENSE](https://github.com/CrazyFanFan/K3Pinyin/blob/master/LICENSE) for details.
 
 # iOS Device Map list
 

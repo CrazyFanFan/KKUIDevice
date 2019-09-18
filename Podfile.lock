@@ -1,29 +1,21 @@
 PODS:
-  - K3Base (0.0.1)
   - KKUIDevice/ObjectiveC (0.0.5):
     - KKUIDevice/Resources
   - KKUIDevice/Resources (0.0.5)
   - KKUIDevice/Swift (0.0.5):
-    - K3Base
     - KKUIDevice/Resources
 
 DEPENDENCIES:
-  - K3Base
   - KKUIDevice/ObjectiveC (from `./`)
   - KKUIDevice/Swift (from `./`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - K3Base
 
 EXTERNAL SOURCES:
   KKUIDevice:
     :path: "./"
 
 SPEC CHECKSUMS:
-  K3Base: 8a519bc3ee7d327be2e715233ec21a67468cb236
-  KKUIDevice: 95986c851dbb45170824f80cf3b7c9c9f0bb7904
+  KKUIDevice: dea0e41b1c9b716d149957ad40cd3cb0f2a92ecb
 
-PODFILE CHECKSUM: 4bad3e9cabdcff06735af4307bfe49b37d322836
+PODFILE CHECKSUM: bb830fea62056e6fa487b97570c13baf642bc800
 
 COCOAPODS: 1.5.3
