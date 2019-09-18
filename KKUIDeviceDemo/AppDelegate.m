@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  KKUIDeviceDemo
 //
-//  Created by K3 on 2018/9/13.
+//  Created by C凡 on 2018/9/13.
 //  Copyright © 2018年 Crazy凡. All rights reserved.
 //
 

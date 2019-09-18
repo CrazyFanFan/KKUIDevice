@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  KKUIDevice-swiftDemo
 //
-//  Created by K3 on 2018/9/13.
+//  Created by C凡 on 2018/9/13.
 //  Copyright © 2018年 Crazy凡. All rights reserved.
 //
 
@@ -15,8 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        NSLog("%@", UIDevice.current.k3.hardware)
-        NSLog("%@", UIDevice.current.k3.model)
+        NSLog("%@", UIDevice.current.kk.hardware)
+        NSLog("%@", UIDevice.current.kk.model)
 
         view.backgroundColor = UIColor.white
     }

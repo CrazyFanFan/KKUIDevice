@@ -2,8 +2,8 @@
 //  UIDevice+KK.swift
 //  KKUIDevice-swift
 //
-//  Created by K3 on 2018/5/21.
-//  Copyright © 2018年 K3. All rights reserved.
+//  Created by C凡 on 2018/5/21.
+//  Copyright © 2018年 C凡. All rights reserved.
 //
 
 import Foundation
@@ -11,9 +11,9 @@ import UIKit
 
 public let UNKNOWN_DEVICE: String = "unknown device"
 
-extension UIDevice: K3BaseCompatible {}
+extension UIDevice: KKBaseCompatible {}
 
-public extension K3Base where BaseType == UIDevice {
+public extension KKBase where BaseType == UIDevice {
 
     public var hardware: String {
         var systemInfo = utsname.init()
@@ -29,7 +29,7 @@ public extension K3Base where BaseType == UIDevice {
     }
 
     fileprivate var deviceModelMapConfig: [String: String] {
-        if let bundleURL = Bundle(for: K3Base.self).url(forResource: "KKUIDeviceBundle", withExtension: "bundle"),
+        if let bundleURL = Bundle(for: KKBase.self).url(forResource: "KKUIDeviceBundle", withExtension: "bundle"),
             let plistPath = Bundle(url: bundleURL)?.path(forResource: "DeviceMap", ofType: "plist") {
             return NSDictionary(contentsOfFile: plistPath) as? [String: String] ?? [: ]
         }

@@ -176,5 +176,11 @@
 	<string>iPhone XS Max</string>
 	<key>iPhone11,8</key>
 	<string>iPhone XR</string>
+	<key>iPhone12,1</key>
+	<string>iPhone 11</string>
+	<key>iPhone12,3</key>
+	<string>iPhone 11 Pro</string>
+	<key>iPhone12,5</key>
+	<string>iPhone 11 Pro Max</string>
 </dict>
 </plist>
