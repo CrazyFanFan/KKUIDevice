@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
 
   s.requires_arc  = true
 
-  s.source_files   = "KKUIDevice", "KKUIDevice/**/*.{h,swift}"
-  s.resource_bundles = { "KKUIDeviceBundle" => "Resources/*.{plist}"}
+  s.source_files   = "KKUIDevice", "KKUIDevice/**/*.{swift}"
 end

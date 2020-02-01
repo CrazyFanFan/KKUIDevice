@@ -20,16 +20,6 @@
     NSLog("%@", UIDevice.current.kk.hardware)
     NSLog("%@", UIDevice.current.kk.model)
 
-## Note
-
-If you get error: *[UIDevice KKHardware]: unrecognized selector sent to instance 0x60400003e900*
-
-add: ***'-ObjC'***  
-to:  **Project** 
--> **Your Taget** 
--> **Build Settings**
--> **Other Linker Flags** 
-
 
 # Author
 crazy凡, [ccrazyfan@gmail.com](mailto:ccrazyfan@gmail.com)
