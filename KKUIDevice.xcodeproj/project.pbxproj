@@ -22,8 +22,8 @@
 		2EFD4ED365D557A8FA98C1E0A0366950 /* Pods_KKUIDevice_swiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUIDevice_swiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEB806CE661FBB6FCCC7CE867ADEE46 /* KKUIDeviceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKUIDeviceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402FB71D34B4EAEF0DD7C3D02B3D7A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633DC20A23E5CE7000C341B2 /* KKUIDeviceDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KKUIDeviceDemo.entitlements; sourceTree = "<group>"; };
 		684F17656222DC30ADA5E4451D23D168 /* Pods-KKUIDeviceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDeviceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDeviceDemo/Pods-KKUIDeviceDemo.release.xcconfig"; sourceTree = "<group>"; };
-		68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DeviceMap.plist; sourceTree = "<group>"; };
 		8E207C51D91DB22ABA727082D29DFE34 /* Pods_KKUIDeviceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKUIDeviceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99066928357D035FF270317DAD82FFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C935C9DC45F7B6AF60E65EB3E1AF361 /* Pods-KKUIDevice-swiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKUIDevice-swiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKUIDevice-swiftDemo/Pods-KKUIDevice-swiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,17 +44,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D1AA621E9F72320291E8136D3BC4758 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				68AA62C9C9FB3FAFF96EC039FC25AE8B /* DeviceMap.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		4221C094FF83CA998FDF495246B63711 /* KKUIDeviceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				633DC20A23E5CE7000C341B2 /* KKUIDeviceDemo.entitlements */,
 				99066928357D035FF270317DAD82FFDA /* AppDelegate.swift */,
 				402FB71D34B4EAEF0DD7C3D02B3D7A92 /* Assets.xcassets */,
 				FB42D4FEF2A5FFDCAE4E23297D8DC961 /* Info.plist */,
@@ -80,7 +73,6 @@
 				4221C094FF83CA998FDF495246B63711 /* KKUIDeviceDemo */,
 				E3014808D1697952AED69F56826CE1CB /* Pods */,
 				D10B1AE072805F7DCFA751574F41A2F5 /* Products */,
-				2D1AA621E9F72320291E8136D3BC4758 /* Resources */,
 				19A55EF9591C7B5049887E9F31C6BB71 /* KKUIDevice.podspec */,
 				11159B4E578FD130D91BAE23CB409919 /* README.md */,
 			);
@@ -306,7 +298,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = KKUIDeviceDemo/KKUIDeviceDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = HV88ACAAR6;
 				INFOPLIST_FILE = KKUIDeviceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -315,6 +309,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongkaikai.com.KKUIDeviceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -382,7 +377,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = KKUIDeviceDemo/KKUIDeviceDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = HV88ACAAR6;
 				INFOPLIST_FILE = KKUIDeviceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -390,6 +387,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongkaikai.com.KKUIDeviceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
