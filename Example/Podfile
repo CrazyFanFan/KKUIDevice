@@ -4,5 +4,5 @@ inhibit_all_warnings!
 
 target 'KKUIDeviceDemo' do
   use_frameworks!
-  pod 'KKUIDevice', :path => './'
+  pod 'KKUIDevice', :path => '../'
 end
