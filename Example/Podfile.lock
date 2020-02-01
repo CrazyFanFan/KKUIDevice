@@ -1,0 +1,16 @@
+PODS:
+  - KKUIDevice (0.0.6)
+
+DEPENDENCIES:
+  - KKUIDevice (from `../`)
+
+EXTERNAL SOURCES:
+  KKUIDevice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKUIDevice: 4cb8a1aa28e1bfe2c6fab5a0dda13d277639a0cd
+
+PODFILE CHECKSUM: 269d60685c691893ac12c693c67c4f484b6e2cd3
+
+COCOAPODS: 1.8.4
