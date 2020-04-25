@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "KKUIDevice"
-  s.version     = "1.0.0"
+  s.version     = "1.0.1"
   s.summary     = "A Simple way to get iOS device info."
   s.description = <<-DESC
 			A Simple way to get iOS device info. eg. Hardware string\device name

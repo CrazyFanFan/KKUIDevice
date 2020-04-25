@@ -97,7 +97,8 @@ struct DataMap {
         "iPhone11,8": "iPhone XR",
         "iPhone12,1": "iPhone 11",
         "iPhone12,3": "iPhone 11 Pro",
-        "iPhone12,5": "iPhone 11 Pro Max"
+        "iPhone12,5": "iPhone 11 Pro Max",
+        "iPhone12,8": "iPhone SE (2ND)"
     ]
 
     #if targetEnvironment(macCatalyst)
