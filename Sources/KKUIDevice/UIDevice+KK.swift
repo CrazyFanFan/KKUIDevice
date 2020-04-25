@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+@available(*, deprecated, message: "Please use ModelType.unknown.rawValue instead")
 public let UNKNOWN_DEVICE: String = "unknown device"
 
 extension UIDevice: KKBaseCompatible {}
