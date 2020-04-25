@@ -26,8 +26,11 @@ public extension KKBase where BaseType == UIDevice {
 
     /// device model (device name, e.g. iPhone6/iPhone 6 Plus)
     /// "unknown device" when it's not define
-    var model: String {
+    var model: String { modelType.rawValue }
+
+    var modelType: ModelType {
         let hardware = self.hardware
-        return DataMap.map[hardware] ?? DataMap.macMap[hardware] ?? UNKNOWN_DEVICE
+        return DataMap.map[hardware] ?? DataMap.macMap[hardware] ?? .unknown
     }
+    
 }
