@@ -120,4 +120,5 @@ KKUIDevice is released under the MIT license. See [LICENSE](https://github.com/C
 |iPhone11,8|iPhone X|
 |iPhone12,1|iPhone 11|
 |iPhone12,3|iPhone 11 Pro|
-|iPhone12,4|iPhone 11 Pro Max|
+|iPhone12,5|iPhone 11 Pro Max|
+|iPhone12,8|iPhone SE (2ND)|
