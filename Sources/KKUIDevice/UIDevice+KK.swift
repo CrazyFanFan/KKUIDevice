@@ -33,5 +33,4 @@ public extension KKBase where BaseType == UIDevice {
         let hardware = self.hardware
         return DataMap.map[hardware] ?? DataMap.macMap[hardware] ?? .unknown
     }
-    
 }
