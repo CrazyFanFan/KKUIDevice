@@ -140,7 +140,13 @@ struct DataMap {
         "iPhone14,7": .iPhone14,
         "iPhone14,8": .iPhone14Plus,
         "iPhone15,2": .iPhone14Pro,
-        "iPhone15,3": .iPhone14ProMax
+        "iPhone15,3": .iPhone14ProMax,
+        "AppleTV2,1": .appleTV2,
+        "AppleTV3,1": .appleTV3,
+        "AppleTV3,2": .appleTV3,
+        "AppleTV5,3": .appleTVHD,
+        "AppleTV6,2": .appleTV4K,
+        "AppleTV11,1": .appleTV4K2,
     ]
 
     #if targetEnvironment(macCatalyst)

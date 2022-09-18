@@ -97,4 +97,10 @@ public enum ModelType: String, CaseIterable {
     case iPhone14Plus = "iPhone 14 Plus"
     case iPhone14Pro = "iPhone 14 Pro"
     case iPhone14ProMax = "iPhone 14 Pro Max"
+
+    case appleTV2 = "Apple TV (gen 2)"
+    case appleTV3 = "Apple TV (gen 3)"
+    case appleTVHD = "Apple TV HD"
+    case appleTV4K = "Apple TV 4K (gen 1)"
+    case appleTV4K2 = "Apple TV 4K (gen 2)"
 }
