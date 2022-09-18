@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "KKUIDevice"
-  s.version     = "2.0.0"
+  s.version     = "2.0.1"
   s.summary     = "A Simple way to get iOS device info."
   s.description = <<-DESC
 			A Simple way to get iOS device info. eg. Hardware string\device name
@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
   s.source      = { :git => "https://github.com/CrazyFanFan/KKUIDevice.git", :tag => "#{s.version}" }
   s.framework   = "UIKit"
 
-  s.platform    = :ios, "9.0"
+  s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
+
   s.swift_version = '5.0'
 
   s.requires_arc  = true
