@@ -7,11 +7,12 @@
 
 import Foundation
 
-public enum ModelType: String {
+public enum ModelType: String, CaseIterable {
     case unknown = "unknown device"
 
     case mac_32 = "Mac(32bit)"
     case mac_64 = "Mac(64bit)"
+    case arm64 = "Mac(ARM)"
 
     case simulator = "Simulator"
 
@@ -23,26 +24,32 @@ public enum ModelType: String {
     case iPad6 = "iPad (gen 6)"
     case iPad7 = "iPad (gen 7)"
     case iPad8 = "iPad (gen 8)"
+    case iPad9 = "iPad (gen 9)"
 
     case iPadMini1 = "iPad mini (gen 1)"
     case iPadMini2 = "iPad mini 2"
     case iPadMini3 = "iPad mini 3"
     case iPadMini4 = "iPad mini 4"
     case iPadMini5 = "iPad mini (gen 5)"
+    case iPadMini6 = "iPad mini (gen 6)"
 
     case iPadAir1 = "iPad Air (gen 1)"
     case iPadAir2 = "iPad Air 2"
     case iPadAir3 = "iPad Air (gen 3)"
     case iPadAir4 = "iPad Air (gen 4)"
+    case iPadAir5 = "iPad Air (gen 5)"
 
     case iPadPro__9_7_in = "iPad Pro 9.7-in."
     case iPadPro__10_5_in = "iPad Pro 10.5-in."
     case iPadPro__11_in1 = "iPad Pro 11-in. (gen 1)"
     case iPadPro__11_in2 = "iPad Pro 11-in. (gen 2)"
+    case iPadPro__11_in3 = "iPad Pro 11-in. (gen 3)"
+
     case iPadPro__12_9_in1 = "iPad Pro 12.9-in. (gen 1)"
     case iPadPro__12_9_in2 = "iPad Pro 12.9-in. (gen 2)"
     case iPadPro__12_9_in3 = "iPad Pro 12.9-in. (gen 3)"
     case iPadPro__12_9_in4 = "iPad Pro 12.9-in. (gen 4)"
+    case iPadPro__12_9_in5 = "iPad Pro 12.9-in. (gen 5)"
 
     case iPodTouch1 = "iPod Touch 1"
     case iPodTouch2 = "iPod Touch 2"
@@ -81,4 +88,13 @@ public enum ModelType: String {
     case iPhone12 = "iPhone 12"
     case iPhone12Pro = "iPhone 12 Pro"
     case iPhone12ProMax = "iPhone 12 Pro Max"
+    case iPhoneSE3 = "iPhone SE (3ND)"
+    case iPhone13Mini = "iPhone 13 Mini"
+    case iPhone13 = "iPhone 13"
+    case iPhone13Pro = "iPhone 13 Pro"
+    case iPhone13ProMax = "iPhone 13 Pro Max"
+    case iPhone14 = "iPhone 14"
+    case iPhone14Plus = "iPhone 14 Plus"
+    case iPhone14Pro = "iPhone 14 Pro"
+    case iPhone14ProMax = "iPhone 14 Pro Max"
 }

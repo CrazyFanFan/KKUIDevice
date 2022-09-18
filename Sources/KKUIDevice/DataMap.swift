@@ -69,8 +69,22 @@ struct DataMap {
         "iPad11,4": .iPadAir3,
         "iPad11,6": .iPad8,
         "iPad11,7": .iPad8,
+        "iPad12,1": .iPad9,
+        "iPad12,2": .iPad9,
         "iPad13,1": .iPadAir4,
         "iPad13,2": .iPadAir4,
+        "iPad13,4": .iPadPro__11_in3,
+        "iPad13,5": .iPadPro__11_in3,
+        "iPad13,6": .iPadPro__11_in3,
+        "iPad13,7": .iPadPro__11_in3,
+        "iPad13,8": .iPadPro__12_9_in5,
+        "iPad13,9": .iPadPro__12_9_in5,
+        "iPad13,10": .iPadPro__12_9_in5,
+        "iPad13,11": .iPadPro__12_9_in5,
+        "iPad13,16": .iPadAir5,
+        "iPad13,17": .iPadAir5,
+        "iPad14,1": .iPadMini6,
+        "iPad14,2": .iPadMini6,
         "iPod1,1": .iPodTouch1,
         "iPod2,1": .iPodTouch2,
         "iPod3,1": .iPodTouch3,
@@ -118,18 +132,32 @@ struct DataMap {
         "iPhone13,2": .iPhone12,
         "iPhone13,3": .iPhone12Pro,
         "iPhone13,4": .iPhone12ProMax,
+        "iPhone14,2": .iPhone13Pro,
+        "iPhone14,3": .iPhone13ProMax,
+        "iPhone14,4": .iPhone13Mini,
+        "iPhone14,5": .iPhone13,
+        "iPhone14,6": .iPhoneSE3,
+        "iPhone14,7": .iPhone14,
+        "iPhone14,8": .iPhone14Plus,
+        "iPhone15,2": .iPhone14Pro,
+        "iPhone15,3": .iPhone14ProMax
     ]
 
     #if targetEnvironment(macCatalyst)
     static let macMap: [String: ModelType] = [
         "i386": .mac_32,
-        "x86_64": .mac_64
+        "x86_64": .mac_64,
+        "arm64": .arm64
+    ]
+    #elseif targetEnvironment(simulator)
+    static let macMap: [String: ModelType] = [
+        "i386": .simulator,
+        "x86_64": .simulator,
+        "arm64": .simulator
     ]
     #else
     static let macMap: [String: ModelType] = [
-        "i386": .simulator,
-        "x86_64": .simulator
+        "arm64": .arm64
     ]
     #endif
-    
 }
